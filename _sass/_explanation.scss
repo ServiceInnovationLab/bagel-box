@@ -1,0 +1,16 @@
+.c-explanation {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border: 2px solid #eee;
+  padding: 1em;
+  margin: 2em auto;
+  &__heading {
+    width: 100%;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 1em;
+  }
+  &__caption, &__image {
+    width: 50%;
+  }
+}
