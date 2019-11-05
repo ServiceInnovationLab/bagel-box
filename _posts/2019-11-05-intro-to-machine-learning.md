@@ -16,7 +16,7 @@ It is a blanket term for algorithms that use past data to predict future data.
   <div class="c-explanation__caption">
     When you know <strong>what you have</strong>, and you know what you want to get <strong>out from it</strong>,
     and you've got examples of <strong>how it's been done before</strong>,
-    but you couldn't explain the job to a computer.
+    but you couldn't explain exactly how to do it to a computer.
   </div>
 
   <div class="c-explanation__image">
@@ -64,6 +64,11 @@ text.
   </div>
 </div>
 
+Lots of very complicated things go on in the formation of the model,
+and there are many different ways to implement every part of this process,
+but at the end of the day **machine learning is just a way to guess answers
+based on previous answers**.
+
 ## Machine learning doesn't erase bias... but it's biased more consistently
 
 A machine learning model is biased by whatever it's been trained on.
@@ -72,10 +77,14 @@ A machine learning model is biased by whatever it's been trained on.
 - **Has it been trained on decisions that were biased?** It will exhibit those same biases when making future decisions.
 - **Was it trained on a small dataset?** It might *over-fit* to that dataset - if you've only shown it cats, it's not going to know what a dog is.
 
-## Machine learning won't solve all of your problems... but it might help with some of them
-You should be clear about what you want to achieve with ML, and make sure that you're not unnecessarily using it for applications that would be much more easily and effectively performed by a person or a ten-line Python script.
+- Don't let it be the final arbiter. It can augment your decision-making, but make sure that it's easy to override.
+- Keep an eye out for errors and bias.
+- Be transparent about the data it's trained on, and revisit it if necessary.
 
-Some examples of where machine learning is not useful:
+## Machine learning won't solve all of your problems... but it might help with some of them
+You should be clear about what you want to achieve with ML, and make sure that you're not unnecessarily using it for applications that would be much more easily and effectively performed by a person or a simple script.
+
+Some examples of where machine learning is **not** useful:
 
 - **Sorting data in a way that you could easily describe**. If you're sorting data based on whether it has a particular phrase or is from a particular source - use a spreadsheet or write a script instead!
 - **Anything with small amounts of training data.**
