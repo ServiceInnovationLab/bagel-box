@@ -6,7 +6,7 @@ layout: post
 As a policy analyst, you might be able to use machine learning to help you process
 data, but it's probably not going to replace you any time soon.
 
-## Machine learning isn't magic... but it is pretty cool
+## Machine learning isn't magic... but it is pretty neat
 It is a blanket term for algorithms that use past data to predict future data.
 
 <div class="c-explanation">
@@ -31,8 +31,7 @@ transformers, reinforcement learning - but generally how they work is:
 2. They form a model for translating input data into the desired output.
 3. Input data can be fed through this model and an output is created.
 
-The input and output might be the same format; they might be images, they might be
-text.
+The input and output could be text, images, or structured data.
 
 <div class="c-explanation">
   <h3 class="c-explanation__heading">
@@ -82,13 +81,7 @@ A machine learning model is biased by whatever it's been trained on.
 - Be transparent about the data it's trained on, and revisit it if necessary.
 
 ## Machine learning won't solve all of your problems... but it might help with some of them
-You should be clear about what you want to achieve with ML, and make sure that you're not unnecessarily using it for applications that would be much more easily and effectively performed by a person or a simple script.
-
-Some examples of where machine learning is **not** useful:
-
-- **Sorting data in a way that you could easily describe**. If you're sorting data based on whether it has a particular phrase or is from a particular source - use a spreadsheet or write a script instead!
-- **Anything with small amounts of training data.**
-- **Finding stories and meaning.** At the end of the day, machine learning algorithms are computer programs.
+You should be clear about what you want to achieve with ML, and make sure that you're not unnecessarily using it for applications that would be much more easily and effectively performed by a person or a simple program.
 
 Some examples of where machine learning could be useful:
 
@@ -96,3 +89,16 @@ Some examples of where machine learning could be useful:
 - **Sorting data in a way that you can't easily describe, but where you have a lot of examples of data sorted in this way.**
 - **Finding similarities between data.**
 - **Finding patterns in large amounts of data.**
+
+Some examples of where machine learning is **not** useful:
+
+- **Sorting data in a way that you could easily describe**. If you're sorting data based on whether it has a particular phrase or is from a particular source - use a spreadsheet or write a script instead!
+- **Anything with small amounts of training data.**
+- **Finding stories and meaning.** At the end of the day, machine learning algorithms are computer programs.
+
+There are a number of ways to use machine learning:
+
+- Training your own machine learning algorithm.
+- Using a pre-trained model.
+- Using a cloud ML service.
+- Using a product that uses machine learning under the hood.
