@@ -126,3 +126,5 @@ There are a number of ways to use machine learning:
 
 - [Machine Learning for Policymakers - Belfer Center](https://www.belfercenter.org/sites/default/files/files/publication/MachineLearningforPolicymakers.pdf)
 - [Machine Learning for Humans](https://medium.com/machine-learning-for-humans/why-machine-learning-matters-6164faf1df12)
+- [How Machine Learning can Transform Citizen Engagement Projects](https://www.citizenlab.co/blog/product-update/natural-language-processing-at-citizenlab-how-machine-learning-can-transform-citizen-engagement-projects/)
+- [Citizen participation and machine learning for a better democracy](https://www.turing.ac.uk/research/research-projects/citizen-participation-and-machine-learning-better-democracy)
