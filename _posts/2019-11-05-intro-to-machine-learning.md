@@ -19,7 +19,28 @@ This post is a primer on machine learning to help you figure out whether it woul
 be useful for you and your team.
 
 ## Machine learning isn't magic... but it is pretty neat
-It is a blanket term for algorithms that use past data to predict future data.
+It is a blanket term for algorithms that learn from the past to predict future data.
+
+Machine learning algorithms generally fall into three categories: supervised learning, unsupervised learning, and reinforcement learning.
+
+In supervised learning:
+
+1. It's given a training input dataset and a format for the desired outputs.
+2. It forms a model for translating input data into the desired output.
+3. Input data can be fed through this model and an output is created.
+
+The input and output could be text, images, or structured data.
+
+In unsupervised learning:
+
+
+In reinforcement learning:
+
+1. It's given a task.
+2. It randomly picks an approach.
+3. It is rewarded for doing the task well, or punished for doing it badly.
+4. It picks another approach, learning from the positive and negative feedback it's had in the past.
+
 
 <div class="c-explanation">
   <h3 class="c-explanation__heading">
@@ -35,16 +56,6 @@ It is a blanket term for algorithms that use past data to predict future data.
     <img src="{{site.baseurl}}/assets/img/input-output.gif" alt="A known set of inputs, a complex or undefined transformation, and a well-defined set of outputs">
   </div>
 </div>
-
-There are a lot of different types of machine learning algorithms - RNNs, GANs,
-transformers, reinforcement learning - but generally how they work is:
-
-1. They're given a training input dataset and a format for the desired outputs.
-2. They form a model for translating input data into the desired output.
-3. Input data can be fed through this model and an output is created.
-
-The input and output could be text, images, or structured data.
-
 <div class="c-explanation">
   <h3 class="c-explanation__heading">
     How does a machine learn?
@@ -75,11 +86,6 @@ The input and output could be text, images, or structured data.
   </div>
 </div>
 
-Lots of very complicated things go on in the formation of the model,
-and there are many different ways to implement every part of this process,
-but at the end of the day **machine learning is just a way to guess answers
-based on previous answers**.
-
 ## Machine learning doesn't erase bias... but it's biased more consistently
 
 A machine learning model is biased by whatever it's been trained on.
@@ -105,8 +111,9 @@ Some examples of where machine learning could be useful:
 Some examples of where machine learning is **not** useful:
 
 - **Sorting data in a way that you could easily describe**. If you're sorting data based on whether it has a particular phrase or is from a particular source - use a spreadsheet or write a script instead!
-- **Anything with small amounts of training data.**
-- **Finding stories and meaning.** At the end of the day, machine learning algorithms are computer programs.
+- **Dealing with small amounts of data.**
+- **Finding stories and meaning.** At the end of the day, machine learning
+algorithms are computer programs.
 
 There are a number of ways to use machine learning:
 
@@ -114,3 +121,8 @@ There are a number of ways to use machine learning:
 - Using a pre-trained model.
 - Using a cloud ML service.
 - Using a product that uses machine learning under the hood.
+
+## Resources
+
+- [Machine Learning for Policymakers - Belfer Center](https://www.belfercenter.org/sites/default/files/files/publication/MachineLearningforPolicymakers.pdf)
+- [Machine Learning for Humans](https://medium.com/machine-learning-for-humans/why-machine-learning-matters-6164faf1df12)
