@@ -3,8 +3,20 @@ title: An Intro to Machine Learning for Policy Analysts
 layout: post
 ---
 
-As a policy analyst, you might be able to use machine learning to help you process
-data, but it's probably not going to replace you any time soon.
+<p class="t-intro">
+  As a policy analyst, you might be able to use machine learning to help you process
+  data, but it's probably not going to replace you any time soon.
+</p>
+
+Modern engagement and consultation tools and processes can easily reach thousands
+of people, which is fantastic for getting a broad range of feedback on an issue,
+but it can be difficult to find meaning in the massive amount of data.
+
+Some policy teams are reaching out to machine learning to solve their problems, but
+it's easy to get bamboozled by the complicated jargon in this area.
+
+This post is a primer on machine learning to help you figure out whether it would
+be useful for you and your team.
 
 ## Machine learning isn't magic... but it is pretty neat
 It is a blanket term for algorithms that use past data to predict future data.

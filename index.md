@@ -4,5 +4,3 @@
 
 layout: home
 ---
-
-## Machine Learning for Policy Analysts
