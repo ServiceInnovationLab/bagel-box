@@ -4,3 +4,19 @@ This is a website to help policy analysts understand analysis tools for engageme
 so that they can effectively engage with more people.
 
 [View website](https://serviceinnovationlab.github.io/bagel-box/)
+
+## Setup
+
+This is a Jekyll based website.
+
+To install locally:
+
+```
+  bundle install
+```
+
+To run the server:
+
+```
+  bundle exec jekyll run server
+```
