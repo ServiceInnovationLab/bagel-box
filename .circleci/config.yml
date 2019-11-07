@@ -9,6 +9,22 @@ jobs:
       - run:
           name: Pull google spreadsheet
           command: ./.circleci/pull-sheet.sh
+      - add_ssh_keys:
+          fingerprints:
+            - "eb:35:35:3f:6f:f5:45:2e:e3:16:15:33:02:02:81:ea"
+      - run:
+          name: Configure git
+          command: |
+            git config --global user.email "labplus@dia.govt.nz"
+            git config --global user.name "Deployment step on circle-ci"
+      - run:
+          name: "Push update branch"
+          command: |
+            set -euv
+            export PR_BRANCH="spreadsheet-${CIRCLE_BUILD_NUM}"
+            git checkout -b "${PR_BRANCH}"
+            git push origin "${PR_BRANCH}"
+
 workflows:
   version: 2
   build_and_deploy:
