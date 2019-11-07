@@ -7,7 +7,7 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Install yamllint
+          name: Pull google spreadsheet
           command: ./.circleci/pull-sheet.sh
 workflows:
   version: 2
