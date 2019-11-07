@@ -1,32 +1,41 @@
 ---
 version: 2
 jobs:
-  pull-spreadsheet:
+  process-spreadsheet:
     docker:
       - image: circleci/python:3.7.2
+    environment:
+      GS_YAML_FILE: "_data/spreadsheet.yaml"
     steps:
       - checkout
       - run:
-          name: Pull google spreadsheet
+          name: Pull google spreadsheet as csv
           command: ./.circleci/pull-sheet.sh
+      - run: pip install --user pyyaml
+      - run: mkdir -p _data && touch ${GS_YAML_FILE}
+      - run:
+          name: Convert to yaml
+          command: ./.circleci/make-yaml.py
       - add_ssh_keys:
           fingerprints:
-            - "eb:35:35:3f:6f:f5:45:2e:e3:16:15:33:02:02:81:ea"
+            - "83:1d:79:20:51:b1:43:e6:75:2c:30:a1:4b:8e:17:be"
       - run:
           name: Configure git
           command: |
             git config --global user.email "labplus@dia.govt.nz"
-            git config --global user.name "Deployment step on circle-ci"
+            git config --global user.name "Automation on circle-ci"
       - run:
           name: "Push update branch"
           command: |
             set -euv
             export PR_BRANCH="spreadsheet-${CIRCLE_BUILD_NUM}"
             git checkout -b "${PR_BRANCH}"
+            git add "${GS_YAML_FILE}"
+            git commit -m "Updated report data for build ${CIRCLE_BUILD_NUM}"
             git push origin "${PR_BRANCH}"
 
 workflows:
   version: 2
   build_and_deploy:
     jobs:
-      - pull-spreadsheet
+      - process-spreadsheet
