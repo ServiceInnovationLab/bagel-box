@@ -1,0 +1,16 @@
+---
+version: 2
+jobs:
+  pull-spreadsheet:
+    docker:
+      - image: circleci/python:3.7.2
+    steps:
+      - checkout
+      - run:
+          name: Install yamllint
+          command: ./.circleci/pull-sheet.sh
+workflows:
+  version: 2
+  build_and_deploy:
+    jobs:
+      - pull-spreadsheet
