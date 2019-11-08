@@ -1,0 +1,300 @@
+data:
+- name: Many Chat
+  report_author: ''
+  description: ''
+  reo: ''
+  cloud_local: ''
+  cost: ''
+  open_source: ''
+  theming: ''
+  sentiment: ''
+  input: ''
+  output: ''
+  community: ''
+  nz_use: ''
+  link: ''
+- name: MAXQDA
+  report_author: Ross
+  description: world-leading software package for qualitative and mixed methods research
+  reo: 'No'
+  cloud_local: Local
+  cost: "Standard $959\nPlus $1139\nAnalytics Pro \n$1373"
+  open_source: 'No'
+  theming: '"Coding"'
+  sentiment: 'No'
+  input: 'Audio
+
+    Video
+
+    Text'
+  output: 'Search queries, Word, Excel, HTML, Image files
+
+    Visual Tools: maps. matrix. codeline, code relations browser, word cloud, graphs,
+    comparison chart, customisable colours,
+
+    Mixed methods features: Stats and graphs, cross tabs, similarity analysis, quote
+    matrix.'
+  community: ''
+  nz_use: 'Department of Conservation
+
+    Gavin Bryce (DoC)  gbryce@doc.govt.nz'
+  link: https://www.maxqda.com/what-is-maxqda
+- name: VaDer
+  report_author: Brenda
+  description: 'Uses a dictionary of sentiment to work ranking
+
+    '
+  reo: outta the box it doesn't recognise the any kupu maori unless you add to the
+    dictionary
+  cloud_local: local
+  cost: $0
+  open_source: MIT
+  theming: 'No'
+  sentiment: 'Yes'
+  input: Text (cli)
+  output: 'commandline, pos,neg,neu, composite
+
+    '
+  community: ''
+  nz_use: ''
+  link: https://github.com/cjhutto/vaderSentiment
+- name: NVivo
+  report_author: Ross
+  description: most powerful software for gaining richer insights from qualitative
+    and mixed-methods data
+  reo: 'No'
+  cloud_local: Local
+  cost: $1119  USD
+  open_source: 'No'
+  theming: 'Yes'
+  sentiment: No? Can't tell
+  input: text, audio, video, emails, images, spreadsheets, online surveys, social
+    and web content and more
+  output: 'wordcloud, word trees, mindmap for nodes, heading formatting.    '
+  community: ''
+  nz_use: ''
+  link: ''
+- name: Pol.is https://pol.is/home
+  report_author: ''
+  description: ''
+  reo: ''
+  cloud_local: ''
+  cost: ''
+  open_source: ''
+  theming: ''
+  sentiment: ''
+  input: ''
+  output: ''
+  community: ''
+  nz_use: ''
+  link: ''
+- name: Google Natural Language processing
+  report_author: Merrin
+  description: ''
+  reo: ''
+  cloud_local: Cloud
+  cost: ''
+  open_source: ''
+  theming: ''
+  sentiment: ''
+  input: ''
+  output: ''
+  community: ''
+  nz_use: ''
+  link: ''
+- name: Amazon Comprehend
+  report_author: Merrin
+  description: ''
+  reo: ''
+  cloud_local: Cloud
+  cost: ''
+  open_source: ''
+  theming: ''
+  sentiment: ''
+  input: ''
+  output: ''
+  community: ''
+  nz_use: ''
+  link: ''
+- name: Microsoft Text Analysis
+  report_author: Merrin
+  description: ''
+  reo: ''
+  cloud_local: ''
+  cost: ''
+  open_source: ''
+  theming: ''
+  sentiment: ''
+  input: ''
+  output: ''
+  community: ''
+  nz_use: ''
+  link: ''
+- name: Thematic
+  report_author: ''
+  description: ''
+  reo: ''
+  cloud_local: ''
+  cost: ''
+  open_source: ''
+  theming: ''
+  sentiment: ''
+  input: ''
+  output: ''
+  community: ''
+  nz_use: ''
+  link: ''
+- name: MonkeyLearn
+  report_author: ''
+  description: ''
+  reo: ''
+  cloud_local: ''
+  cost: ''
+  open_source: ''
+  theming: ''
+  sentiment: ''
+  input: ''
+  output: ''
+  community: ''
+  nz_use: ''
+  link: ''
+- name: OpenNLP
+  report_author: Merrin
+  description: ''
+  reo: ''
+  cloud_local: ''
+  cost: ''
+  open_source: ''
+  theming: ''
+  sentiment: ''
+  input: ''
+  output: ''
+  community: ''
+  nz_use: ''
+  link: ''
+- name: Latent Dirichlet allocation
+  report_author: Merrin
+  description: ''
+  reo: ''
+  cloud_local: ''
+  cost: ''
+  open_source: ''
+  theming: ''
+  sentiment: ''
+  input: ''
+  output: ''
+  community: ''
+  nz_use: ''
+  link: ''
+- name: Opinionated NLP Analysis
+  report_author: ''
+  description: ''
+  reo: ''
+  cloud_local: ''
+  cost: ''
+  open_source: ''
+  theming: ''
+  sentiment: ''
+  input: ''
+  output: ''
+  community: ''
+  nz_use: ''
+  link: ''
+- name: TextRank / PyTextRank
+  report_author: Merrin
+  description: ''
+  reo: ''
+  cloud_local: ''
+  cost: ''
+  open_source: ''
+  theming: ''
+  sentiment: ''
+  input: ''
+  output: ''
+  community: ''
+  nz_use: ''
+  link: ''
+- name: Skip-thoughts
+  report_author: Merrin
+  description: ''
+  reo: ''
+  cloud_local: ''
+  cost: ''
+  open_source: ''
+  theming: ''
+  sentiment: ''
+  input: ''
+  output: ''
+  community: ''
+  nz_use: ''
+  link: ''
+- name: NLTK
+  report_author: Merrin
+  description: ''
+  reo: ''
+  cloud_local: ''
+  cost: ''
+  open_source: ''
+  theming: ''
+  sentiment: ''
+  input: ''
+  output: ''
+  community: ''
+  nz_use: ''
+  link: http://www.nltk.org/
+- name: TextBlob
+  report_author: Jacob
+  description: ''
+  reo: ''
+  cloud_local: ''
+  cost: ''
+  open_source: ''
+  theming: ''
+  sentiment: ''
+  input: ''
+  output: ''
+  community: ''
+  nz_use: ''
+  link: https://textblob.readthedocs.io/en/dev/index.html#
+- name: spaCy
+  report_author: Jacob
+  description: ''
+  reo: ''
+  cloud_local: ''
+  cost: ''
+  open_source: ''
+  theming: ''
+  sentiment: ''
+  input: ''
+  output: ''
+  community: ''
+  nz_use: ''
+  link: https://spacy.io/
+- name: ''
+  report_author: ''
+  description: ''
+  reo: ''
+  cloud_local: ''
+  cost: ''
+  open_source: ''
+  theming: ''
+  sentiment: ''
+  input: ''
+  output: ''
+  community: ''
+  nz_use: ''
+  link: ''
+- name: Atlas.ti
+  report_author: ''
+  description: ''
+  reo: ''
+  cloud_local: ''
+  cost: ''
+  open_source: ''
+  theming: ''
+  sentiment: ''
+  input: ''
+  output: ''
+  community: ''
+  nz_use: ''
+  link: ''
