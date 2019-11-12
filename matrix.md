@@ -1,5 +1,7 @@
 ---
 layout: page
+title: Matrix
+permalink: /matrix/
 ---
 
 <!-- Pulls from _data links -->
