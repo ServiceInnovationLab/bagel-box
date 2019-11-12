@@ -1,7 +1,7 @@
 ---
 version: 2
 jobs:
-  process-spreadsheet:
+  spreadsheet:
     docker:
       - image: circleci/python:3.7.2
     environment:
@@ -28,14 +28,20 @@ jobs:
           name: "Push update branch"
           command: |
             set -euv
-            export PR_BRANCH="spreadsheet-${CIRCLE_BUILD_NUM}"
-            git checkout -b "${PR_BRANCH}"
-            git add "${GS_YAML_FILE}"
-            git commit -m "Updated report data for build ${CIRCLE_BUILD_NUM}"
-            git push origin "${PR_BRANCH}"
+            if ! git diff-index --quiet HEAD --; then
+                export PR_BRANCH="spreadsheet-${CIRCLE_BUILD_NUM}"
+                git checkout -b "${PR_BRANCH}"
+                git add "${GS_YAML_FILE}"
+                git commit -m "Updated report data for build ${CIRCLE_BUILD_NUM}"
+                git push origin "${PR_BRANCH}"
+            fi
 
 workflows:
   version: 2
-  build_and_deploy:
+  update_data:
     jobs:
-      - process-spreadsheet
+      - spreadsheet:
+          filters:
+            branches:
+              only:
+                - dev
