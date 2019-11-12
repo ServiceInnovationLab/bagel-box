@@ -5,7 +5,7 @@ jobs:
     docker:
       - image: circleci/python:3.7.2
     environment:
-      GS_YAML_FILE: "_data/spreadsheet.yaml"
+      GS_YAML_FILE: "_data/matrix.yml"
     steps:
       - checkout
       - run:
