@@ -68,7 +68,7 @@ data:
   reo: 'No'
   cloud_local: Local
   cost: $1119  USD
-  open_source: 'No'
+  open_source: 'no'
   theming: 'Yes'
   sentiment: No? Can't tell
   input: text, audio, video, emails, images, spreadsheets, online surveys, social
@@ -78,7 +78,7 @@ data:
   features: ''
   nz_use: ''
   link: ''
-- name: Pol.is https://pol.is/home
+- name: Pol.is
   report_author: ''
   description: ''
   reo: ''
@@ -92,7 +92,7 @@ data:
   community: ''
   features: ''
   nz_use: ''
-  link: ''
+  link: https://pol.is/home
 - name: Google Natural Language processing
   report_author: Merrin
   description: Google's API for natural language processing
@@ -289,21 +289,6 @@ data:
   features: ''
   nz_use: ''
   link: https://spacy.io/
-- name: ''
-  report_author: ''
-  description: ''
-  reo: ''
-  cloud_local: ''
-  cost: ''
-  open_source: ''
-  theming: ''
-  sentiment: ''
-  input: ''
-  output: ''
-  community: ''
-  features: ''
-  nz_use: ''
-  link: ''
 - name: Atlas.ti
   report_author: ''
   description: ''
