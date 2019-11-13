@@ -11,6 +11,7 @@ data:
   input: ''
   output: ''
   community: ''
+  features: ''
   nz_use: ''
   link: ''
 - name: MAXQDA
@@ -35,6 +36,7 @@ data:
     Mixed methods features: Stats and graphs, cross tabs, similarity analysis, quote
     matrix.'
   community: ''
+  features: ''
   nz_use: 'Department of Conservation
 
     Gavin Bryce (DoC)  gbryce@doc.govt.nz'
@@ -56,6 +58,7 @@ data:
 
     '
   community: ''
+  features: ''
   nz_use: ''
   link: https://github.com/cjhutto/vaderSentiment
 - name: NVivo
@@ -72,6 +75,7 @@ data:
     and web content and more
   output: 'wordcloud, word trees, mindmap for nodes, heading formatting.    '
   community: ''
+  features: ''
   nz_use: ''
   link: ''
 - name: Pol.is https://pol.is/home
@@ -86,50 +90,55 @@ data:
   input: ''
   output: ''
   community: ''
+  features: ''
   nz_use: ''
   link: ''
 - name: Google Natural Language processing
   report_author: Merrin
-  description: ''
-  reo: ''
+  description: Google's API for natural language processing
+  reo: 'no'
   cloud_local: Cloud
-  cost: ''
-  open_source: ''
-  theming: ''
-  sentiment: ''
-  input: ''
-  output: ''
+  cost: free for low use, priced per 1000 calls after that - https://cloud.google.com/natural-language/pricing
+  open_source: 'no'
+  theming: not really - 'content classification'
+  sentiment: yes - overall sentiments, and sentiment for entities
+  input: text
+  output: JSON
   community: ''
+  features: ''
   nz_use: ''
-  link: ''
+  link: https://cloud.google.com/natural-language/
 - name: Amazon Comprehend
   report_author: Merrin
-  description: ''
-  reo: ''
+  description: Amazon's API for natural language processing
+  reo: 'no'
   cloud_local: Cloud
-  cost: ''
-  open_source: ''
-  theming: ''
-  sentiment: ''
-  input: ''
-  output: ''
+  cost: USD$0.01 per unit
+  open_source: 'no'
+  theming: can do
+  sentiment: 'yes'
+  input: text
+  output: JSON
   community: ''
+  features: ''
   nz_use: ''
-  link: ''
+  link: https://aws.amazon.com/comprehend/
 - name: Microsoft Text Analysis
   report_author: Merrin
-  description: ''
-  reo: ''
-  cloud_local: ''
-  cost: ''
-  open_source: ''
-  theming: ''
-  sentiment: ''
-  input: ''
-  output: ''
+  description: Microsoft's API for natural language processing
+  reo: 'no'
+  cloud_local: Cloud
+  cost: Pricing is a bit confusing - https://azure.microsoft.com/en-us/pricing/details/cognitive-services/text-analytics/
+  open_source: 'no'
+  theming: key phrase detection'
+  sentiment: 'yes'
+  input: text
+  output: JSON
   community: ''
+  features: "Sentiment analysis, key phrase extraction, language detection (not including\
+    \ Te Reo M\u0101ori)"
   nz_use: ''
-  link: ''
+  link: https://azure.microsoft.com/en-us/services/cognitive-services/text-analytics/
 - name: Thematic
   report_author: ''
   description: ''
@@ -142,6 +151,7 @@ data:
   input: ''
   output: ''
   community: ''
+  features: ''
   nz_use: ''
   link: ''
 - name: MonkeyLearn
@@ -156,6 +166,7 @@ data:
   input: ''
   output: ''
   community: ''
+  features: ''
   nz_use: ''
   link: ''
 - name: OpenNLP
@@ -170,6 +181,7 @@ data:
   input: ''
   output: ''
   community: ''
+  features: ''
   nz_use: ''
   link: ''
 - name: Latent Dirichlet allocation
@@ -184,6 +196,7 @@ data:
   input: ''
   output: ''
   community: ''
+  features: ''
   nz_use: ''
   link: ''
 - name: Opinionated NLP Analysis
@@ -198,6 +211,7 @@ data:
   input: ''
   output: ''
   community: ''
+  features: ''
   nz_use: ''
   link: ''
 - name: TextRank / PyTextRank
@@ -212,6 +226,7 @@ data:
   input: ''
   output: ''
   community: ''
+  features: ''
   nz_use: ''
   link: ''
 - name: Skip-thoughts
@@ -226,6 +241,7 @@ data:
   input: ''
   output: ''
   community: ''
+  features: ''
   nz_use: ''
   link: ''
 - name: NLTK
@@ -240,6 +256,7 @@ data:
   input: ''
   output: ''
   community: ''
+  features: ''
   nz_use: ''
   link: http://www.nltk.org/
 - name: TextBlob
@@ -254,6 +271,7 @@ data:
   input: ''
   output: ''
   community: ''
+  features: ''
   nz_use: ''
   link: https://textblob.readthedocs.io/en/dev/index.html#
 - name: spaCy
@@ -268,6 +286,7 @@ data:
   input: ''
   output: ''
   community: ''
+  features: ''
   nz_use: ''
   link: https://spacy.io/
 - name: ''
@@ -282,6 +301,7 @@ data:
   input: ''
   output: ''
   community: ''
+  features: ''
   nz_use: ''
   link: ''
 - name: Atlas.ti
@@ -296,5 +316,6 @@ data:
   input: ''
   output: ''
   community: ''
+  features: ''
   nz_use: ''
   link: ''
