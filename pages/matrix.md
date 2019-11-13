@@ -14,6 +14,7 @@ permalink: /matrix/
     <tr>
       <th>Name</th>
       <th>description</th>
+      <th>Features</th>
       <th>reo</th>
       <th>cloud_local</th>
       <th>cost</th>
@@ -32,6 +33,7 @@ permalink: /matrix/
       <tr>
         <td><strong>{{ row.name }}</strong></td>
         <td>{{ row.description }}</td>
+        <td>{{ row.features }}</td>
         <td>{{row.reo}}</td>
         <td>{{row.cloud_local}}</td>
         <td>{{row.cost}}</td>
