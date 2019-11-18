@@ -14,19 +14,19 @@ permalink: /matrix/
     <thead>
       <tr>
         <th>Name</th>
-        <th>description</th>
+        <th>Description</th>
         <th>Features</th>
-        <th>reo</th>
-        <th>cloud_local</th>
-        <th>cost</th>
-        <th>open_source</th>
-        <th>theming</th>
-        <th>sentiment</th>
-        <th>input</th>
-        <th>output</th>
-        <th>community</th>
-        <th>nz_use</th>
-        <th>link</th>
+        <th>Reo</th>
+        <th>Cloud/Local/Other</th>
+        <th>Cost</th>
+        <th>Open Source</th>
+        <th>Theming</th>
+        <th>Sentiment</th>
+        <th>Input</th>
+        <th>Output</th>
+        <th>Community</th>
+        <th>Used in NZ?</th>
+        <th>Link</th>
       </tr>
     </thead>
     <tbody>
