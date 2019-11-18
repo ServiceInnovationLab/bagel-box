@@ -8,45 +8,46 @@ permalink: /matrix/
 {% assign matrix = site.data.matrix.data %}
 {% assign matrix = matrix | sort:"Name" %}
 
-<h3>Matrix</h3>
-<table width="100%">
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>description</th>
-      <th>Features</th>
-      <th>reo</th>
-      <th>cloud_local</th>
-      <th>cost</th>
-      <th>open_source</th>
-      <th>theming</th>
-      <th>sentiment</th>
-      <th>input</th>
-      <th>output</th>
-      <th>community</th>
-      <th>nz_use</th>
-      <th>link</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% for row in matrix %}
+<div class="matrix">
+  <h2>Matrix</h2>
+  <table class="matrix-table">
+    <thead>
       <tr>
-        <td><strong>{{ row.name }}</strong></td>
-        <td>{{ row.description }}</td>
-        <td>{{ row.features }}</td>
-        <td>{{row.reo}}</td>
-        <td>{{row.cloud_local}}</td>
-        <td>{{row.cost}}</td>
-        <td>{{row.open_source}}</td>
-        <td>{{row.theming}}</td>
-        <td>{{row.sentiment}}</td>
-        <td>{{row.input}}</td>
-        <td>{{row.output}}</td>
-        <td>{{row.community}}</td>
-        <td>{{row.nz_use}}</td>
-        <td>{{row.link}}</td>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Features</th>
+        <th>Reo</th>
+        <th>Cloud/Local/Other</th>
+        <th>Cost</th>
+        <th>Open Source</th>
+        <th>Theming</th>
+        <th>Sentiment</th>
+        <th>Input</th>
+        <th>Output</th>
+        <th>Community</th>
+        <th>Used in NZ?</th>
+        <th>Link</th>
       </tr>
-    {% endfor %}
-  </tbody>
-</table>
-
+    </thead>
+    <tbody>
+      {% for row in matrix %}
+        <tr>
+          <td><strong>{{ row.name }}</strong></td>
+          <td>{{ row.description }}</td>
+          <td>{{ row.features }}</td>
+          <td>{{row.reo}}</td>
+          <td>{{row.cloud_local}}</td>
+          <td>{{row.cost}}</td>
+          <td>{{row.open_source}}</td>
+          <td>{{row.theming}}</td>
+          <td>{{row.sentiment}}</td>
+          <td>{{row.input}}</td>
+          <td>{{row.output}}</td>
+          <td>{{row.community}}</td>
+          <td>{{row.nz_use}}</td>
+          <td>{{row.link}}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
