@@ -79,18 +79,19 @@ data:
   nz_use: ''
   link: ''
 - name: Pol.is
-  report_author: ''
-  description: ''
-  reo: ''
-  cloud_local: ''
-  cost: ''
-  open_source: ''
-  theming: ''
-  sentiment: ''
-  input: ''
-  output: ''
+  report_author: Jacob
+  description: Visualising what organisational members think.
+  reo: '?'
+  cloud_local: Cloud
+  cost: '? Contact for demo/pricing'
+  open_source: 'No'
+  theming: '?'
+  sentiment: '?'
+  input: '?'
+  output: '?'
   community: ''
-  features: ''
+  features: Polis clusters participants to define the opinion landscape, identifying
+    points of consensus and divergence.
   nz_use: ''
   link: https://pol.is/home
 - name: Google Natural Language processing
@@ -140,50 +141,69 @@ data:
   nz_use: ''
   link: https://azure.microsoft.com/en-us/services/cognitive-services/text-analytics/
 - name: Thematic
-  report_author: ''
-  description: ''
-  reo: ''
-  cloud_local: ''
-  cost: ''
-  open_source: ''
-  theming: ''
-  sentiment: ''
-  input: ''
-  output: ''
+  report_author: Jacob
+  description: Finds actionable themes in raw data
+  reo: 'No'
+  cloud_local: Cloud
+  cost: '? Contact for demo/pricing'
+  open_source: 'No'
+  theming: 'Yes'
+  sentiment: 'No'
+  input: '?'
+  output: '?'
   community: ''
-  features: ''
+  features: Finds actionable themes in raw data & turns it into a recommendations
+    engine & gives you the tools to get stakeholders on board and build customer-centric
+    processes.
   nz_use: ''
-  link: ''
+  link: https://getthematic.com/
 - name: MonkeyLearn
-  report_author: ''
-  description: ''
-  reo: ''
-  cloud_local: ''
-  cost: ''
-  open_source: ''
-  theming: ''
-  sentiment: ''
-  input: ''
-  output: ''
+  report_author: Jacob
+  description: Train custom machine learning models to get topic, sentiment, intent,
+    keywords and more.
+  reo: 'No'
+  cloud_local: Cloud
+  cost: 'Free - 300 Querries/mth; Low API Speed; 1 Small Custom Model
+
+    Team (Free) - 10000 Querries/mth; Medium API Speed; 3 Small Custom Models
+
+    Business (Schedule a Demo) - On Demand pricing.'
+  open_source: 'No'
+  theming: 'No'
+  sentiment: 'Yes'
+  input: 'CSV/Excel Files OR via direct integrations, Zapier or API.
+
+    Text format such as: Emails; Support Tickets; Reviews; NPS Feedback; Surveys;
+    Social Media.'
+  output: '?'
   community: ''
-  features: ''
+  features: Build text classifiers for detecting topic, sentiment, intent, urgency
+    and more.; Build text extractors to identify specific data within text, including
+    keywords, entities, features, and more.
   nz_use: ''
-  link: ''
+  link: 'https://monkeylearn.com/
+
+
+    https://monkeylearn.com/integrations/
+
+    '
 - name: OpenNLP
-  report_author: Merrin
-  description: ''
-  reo: ''
-  cloud_local: ''
-  cost: ''
-  open_source: ''
-  theming: ''
-  sentiment: ''
-  input: ''
+  report_author: Jacob
+  description: OpenNLP supports the most common NLP tasks.
+  reo: 'No'
+  cloud_local: Local
+  cost: Free
+  open_source: 'Yes'
+  theming: 'No'
+  sentiment: 'Yes'
+  input: The input and the output formats are specific to the tool, but often the
+    output is an array of String, and the input is a String or an array of String.
   output: ''
   community: ''
-  features: ''
+  features: Tokenization, sentence segmentation, part-of-speech tagging, named entity
+    extraction, chunking, parsing, language detection and coreference resolution.
   nz_use: ''
-  link: ''
+  link: https://opennlp.apache.org/
 - name: Latent Dirichlet allocation
   report_author: Merrin
   description: ''
@@ -215,92 +235,114 @@ data:
   nz_use: ''
   link: ''
 - name: TextRank / PyTextRank
-  report_author: Merrin
-  description: ''
-  reo: ''
-  cloud_local: ''
-  cost: ''
-  open_source: ''
-  theming: ''
-  sentiment: ''
-  input: ''
-  output: ''
+  report_author: Jacob
+  description: Text summarization and keyword extraction.
+  reo: 'No'
+  cloud_local: Local
+  cost: Free
+  open_source: 'Yes'
+  theming: 'No'
+  sentiment: 'No'
+  input: Text
+  output: Text
   community: ''
-  features: ''
+  features: Text summarization and keyword extraction.
   nz_use: ''
-  link: ''
+  link: 'https://github.com/summanlp/textrank
+
+
+    https://pypi.org/project/summa/'
 - name: Skip-thoughts
-  report_author: Merrin
-  description: ''
-  reo: ''
-  cloud_local: ''
-  cost: ''
-  open_source: ''
-  theming: ''
-  sentiment: ''
+  report_author: Jacob
+  description: Sentence encoder.
+  reo: 'No'
+  cloud_local: Local
+  cost: Free
+  open_source: 'Yes'
+  theming: 'No'
+  sentiment: 'No'
   input: ''
   output: ''
   community: ''
-  features: ''
+  features: Sentence encoder.
   nz_use: ''
-  link: ''
+  link: 'https://github.com/tensorflow/models/tree/master/research/skip_thoughts
+
+
+    https://pypi.org/project/skip-thoughts/'
 - name: NLTK
-  report_author: Merrin
-  description: ''
-  reo: ''
-  cloud_local: ''
-  cost: ''
-  open_source: ''
-  theming: ''
-  sentiment: ''
-  input: ''
+  report_author: Jacob
+  description: NLTK is a leading platform for building Python programs to work with
+    human language data.
+  reo: 'No'
+  cloud_local: Local
+  cost: Free
+  open_source: 'Yes'
+  theming: 'No'
+  sentiment: 'Yes'
+  input: String
   output: ''
   community: ''
-  features: ''
+  features: Classification, tokenization, stemming, tagging, parsing, and semantic
+    reasoning.
   nz_use: ''
   link: http://www.nltk.org/
 - name: TextBlob
   report_author: Jacob
-  description: ''
-  reo: ''
-  cloud_local: ''
-  cost: ''
-  open_source: ''
-  theming: ''
-  sentiment: ''
-  input: ''
-  output: ''
+  description: TextBlob is a Python (2 & 3) library for processing textual data.
+  reo: 'No'
+  cloud_local: Local
+  cost: Free
+  open_source: 'Yes'
+  theming: 'No'
+  sentiment: 'Yes'
+  input: String, CSV, JSON & TSV
+  output: String, int
   community: ''
-  features: ''
+  features: Common NLP tasks such as part-of-speech tagging, noun phrase extraction,
+    sentiment analysis, classification, translation, and more.
   nz_use: ''
   link: https://textblob.readthedocs.io/en/dev/index.html#
 - name: spaCy
   report_author: Jacob
-  description: ''
-  reo: ''
-  cloud_local: ''
-  cost: ''
-  open_source: ''
-  theming: ''
-  sentiment: ''
-  input: ''
-  output: ''
+  description: Advanced NLP in Python.
+  reo: 'No'
+  cloud_local: Local
+  cost: Free
+  open_source: 'Yes'
+  theming: 'No'
+  sentiment: 'No'
+  input: json, jsonl
+  output: json,jsonl, msg
   community: ''
-  features: ''
+  features: It can be used to build information extraction or natural language understanding
+    systems, or to pre-process text for deep learning.
   nz_use: ''
   link: https://spacy.io/
 - name: Atlas.ti
-  report_author: ''
-  description: ''
-  reo: ''
-  cloud_local: ''
-  cost: ''
-  open_source: ''
-  theming: ''
-  sentiment: ''
-  input: ''
+  report_author: Jacob
+  description: ATLAS.ti is a powerful workbench for the qualitative analysis of large
+    bodies of textual, graphical, audio and video data.
+  reo: 'No'
+  cloud_local: Cloud/Local
+  cost: Free Trial Version & Paid Licences
+  open_source: 'No'
+  theming: 'No'
+  sentiment: 'Yes'
+  input: '.txt; .doc; .docx; .odt; .pdf; .wav; .mp3; .wma; etc
+
+    or even data from Evernote, Twitter, import entire surveys, etc.'
   output: ''
   community: ''
-  features: ''
+  features: 'The quotation level is also radically unique to ATLAS.ti. If offers an
+    analytic level below coding and better supports inductive, interpretive research
+    approaches like grounded theory, hermeneutic, discourse analysis, sociology of
+    knowledge, or phenomenology than any other software.
+
+
+    This can also be said about the ATLAS.ti network / visualization function. It
+    offers the most integrated way of working with your data, it is a tool for visualization
+    as well as for analysis, for data organization as well as conceptual level analytic
+    work and data presentation.'
   nz_use: ''
-  link: ''
+  link: https://atlasti.com/product/what-is-atlas-ti/
