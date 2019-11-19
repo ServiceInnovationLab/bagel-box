@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+# Might need to run `python3 -m pip install pyyaml` if you get a ModuleNotFoundError: No module named 'yaml'
+
 import os
 import csv
 import yaml
