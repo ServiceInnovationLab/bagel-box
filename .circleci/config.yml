@@ -35,9 +35,112 @@ jobs:
                 git commit -m "Updated report data for build ${CIRCLE_BUILD_NUM}"
                 git push origin "${PR_BRANCH}"
             fi
+  nodejsdeps:
+    docker:
+      - image: circleci/ruby:2.6.3-node
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - v1-nodejs-deps-{{ checksum "package-lock.json" }}
+      - run:
+          name: Install nodejs dependencies
+          command: npm install
+      - save_cache:
+          key: v1-nodejs-deps-{{ checksum "package-lock.json" }}
+          paths:
+            - node_modules
+  rubydeps:
+    docker:
+      - image: circleci/ruby:2.6.3-node
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - v1-ruby-deps-{{ checksum "Gemfile.lock" }}
+      - run: gem install bundler
+      - run:
+          name: Install dependencies
+          command: bundle check --path vendor/bundle || bundle install --deployment
+      - save_cache:
+          key: v1-ruby-deps-{{ checksum "Gemfile.lock" }}
+          paths:
+            - vendor/bundle
+  build:
+    docker:
+      - image: circleci/ruby:2.6.3-node
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - v1-ruby-deps-{{ checksum "Gemfile.lock" }}
+      - run: gem install bundler
+      - run:
+          name: Install dependencies
+          command: bundle check --path vendor/bundle || bundle install --deployment
+      - run:
+          name: Build site
+          command: bundle exec jekyll build
+      - save_cache:
+          key: v1-site-build-{{ .Revision }}
+          paths:
+            - _site
+  markdownlint:
+    docker:
+      - image: circleci/ruby:2.6.3-node
+    steps:
+      - checkout
+      - run:
+          name: "Install javascript dependencies"
+          command: npm install
+      - run: ls ./node_modules/markdownlint-cli/
+      - run:
+          name: markdown lint
+          command: npm run test-markdown
 
+  # yamllint:
+  #   docker:
+  #     - image: circleci/python:3.7.2
+  #   steps:
+  #     - checkout
+  #     - run:
+  #         name: Install yamllint
+  #         command: sudo pip install --upgrade yamllint
+  #     - run:
+  #         name: Yaml linter
+  #         command: yamllint .
+
+
+  accessibility:
+    docker:
+      - image: circleci/ruby:2.6.3-node-browsers
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - v1-site-build-{{ .Revision }}
+            - v1-nodejs-deps-{{ checksum "package-lock.json" }}
+      - run:
+          name: "Install javascript dependencies"
+          command: npm install
+      - run: npm run test-accessibility
 workflows:
   version: 2
+  test_this_website:
+    jobs:
+      - rubydeps
+      # - yamllint
+      - nodejsdeps
+      - build:
+          requires:
+            - rubydeps
+      - markdownlint:
+          requires:
+            - nodejsdeps
+      - accessibility:
+          requires:
+            - build
+            - nodejsdeps
   update_data:
     jobs:
       - spreadsheet:

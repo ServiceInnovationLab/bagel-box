@@ -25,6 +25,7 @@ def represent_ordereddict(dumper, data):
 
 if __name__ == "__main__":
     yaml.add_representer(collections.OrderedDict, represent_ordereddict)
+    yaml.explicit_start = True
 
     with open(csv_filename, "r") as csv_file:
         reader = csv.reader(csv_file, delimiter=",")
@@ -39,9 +40,6 @@ if __name__ == "__main__":
                 for label in labels:
                     value = line[column]
                     hash[label] = value
-                    print("{} {} = {}".format(column, label, value))
-                    column += 1
-                print()
                 data.append(hash)
 
     with open(yaml_filename, 'w') as yaml_file:

@@ -3,3 +3,5 @@ _site
 .jekyll-metadata
 .env
 .circleci/spreadsheet.csv
+node_modules
+
