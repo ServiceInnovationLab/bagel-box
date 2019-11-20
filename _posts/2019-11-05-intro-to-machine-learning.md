@@ -4,9 +4,11 @@ layout: post
 ---
 
 <p class="t-intro">
-  As a policy analyst, you might be able to use machine learning to help you process
-  data, but it's probably not going to replace you any time soon.
+As a policy analyst, you might be able to use machine learning to help you process
+data, but it's probably not going to replace you any time soon.
 </p>
+
+## Why you should use it
 
 Modern engagement and consultation tools and processes can easily reach thousands
 of people, which is fantastic for getting a broad range of feedback on an issue,
@@ -18,48 +20,10 @@ it's easy to get bamboozled by the complicated jargon in this area.
 This post is a primer on machine learning to help you figure out whether it would
 be useful for you and your team.
 
-## Machine learning isn't magic... but it is pretty neat
+## What it involves
 
 It is a blanket term for algorithms that learn from the past to predict future data.
 
-Machine learning algorithms generally fall into three categories: supervised
-learning, unsupervised learning, and reinforcement learning.
-
-In supervised learning:
-
-1. It's given a training input dataset and a format for the desired outputs.
-2. It forms a model for translating input data into the desired output.
-3. Input data can be fed through this model and an output is created.
-
-The input and output could be text, images, or structured data.
-
-In unsupervised learning:
-
-In reinforcement learning:
-
-1. It's given a task.
-2. It randomly picks an approach.
-3. It is rewarded for doing the task well, or punished for doing it badly.
-4. It picks another approach, learning from the positive and negative feedback
-   it's had in the past.
-
-<div class="c-explanation">
-  <h3 class="c-explanation__heading">
-    When should I use machine learning?
-  </h3>
-  <div class="c-explanation__caption">
-    When you know <strong>what you have</strong>, and you know what you want
-    to get <strong>out from it</strong>, and you've got examples of
-    <strong>how it's been done before</strong>, but you couldn't explain
-    exactly how to do it to a computer.
-  </div>
-
-  <div class="c-explanation__image">
-    <img src="{{site.baseurl}}/assets/img/input-output.gif" alt="A known set
-    of inputs, a complex or undefined transformation, and a well-defined set
-    of outputs">
-  </div>
-</div>
 <div class="c-explanation">
   <h3 class="c-explanation__heading">
     How does a machine learn?
@@ -76,6 +40,29 @@ In reinforcement learning:
     outputs">
   </div>
 </div>
+
+Machine learning algorithms generally fall into three categories: supervised
+learning, unsupervised learning, and reinforcement learning.
+
+In **supervised learning**:
+
+1. It's given a training input dataset and a format for the desired outputs.
+2. It forms a model for translating input data into the desired output.
+3. Input data can be fed through this model and an output is created.
+
+The input and output could be text, images, or structured data.
+
+In **unsupervised learning**:
+
+In **reinforcement learning**:
+
+1. It's given a task.
+2. It randomly picks an approach.
+3. It is rewarded for doing the task well, or punished for doing it badly.
+4. It picks another approach, learning from the positive and negative feedback
+   it's had in the past.
+
+## What you will get out of it
 
 <div class="c-explanation">
   <h3 class="c-explanation__heading">
@@ -95,7 +82,51 @@ In reinforcement learning:
   </div>
 </div>
 
-## Machine learning doesn't erase bias... but it's biased more consistently
+## Ideal circumstances for use
+
+**Machine learning won't solve all of your problems... but it might help with
+some of them**
+
+You should be clear about what you want to achieve with ML, and make sure that
+you're not unnecessarily using it for applications that would be much more
+easily and effectively performed by a person or a simple program.
+
+<div class="c-explanation">
+  <h3 class="c-explanation__heading">
+    When should I use machine learning?
+  </h3>
+  <div class="c-explanation__caption">
+    When you know <strong>what you have</strong>, and you know what you want
+    to get <strong>out from it</strong>, and you've got examples of
+    <strong>how it's been done before</strong>, but you couldn't explain
+    exactly how to do it to a computer.
+  </div>
+
+  <div class="c-explanation__image">
+    <img src="{{site.baseurl}}/assets/img/input-output.gif" alt="A known set
+    of inputs, a complex or undefined transformation, and a well-defined set
+    of outputs">
+  </div>
+</div>
+
+Some examples of where machine learning could be useful:
+
+- **Highlighting unique sections from a large amount of data.**
+- **Sorting data in a way that you can't easily describe, but where you have a
+  lot of examples of data sorted in this way.**
+- **Finding similarities between data.**
+- **Finding patterns in large amounts of data.**
+
+There are a number of ways to use machine learning:
+
+- Training your own machine learning algorithm.
+- Using a pre-trained model.
+- Using a cloud ML service.
+- Using a product that uses machine learning under the hood.
+
+## Limitations
+
+### Machine learning doesn't erase bias... but it's biased more consistently
 
 A machine learning model is biased by whatever it's been trained on.
 
@@ -110,21 +141,6 @@ A machine learning model is biased by whatever it's been trained on.
 - Keep an eye out for errors and bias.
 - Be transparent about the data it's trained on, and revisit it if necessary.
 
-**Machine learning won't solve all of your problems... but it might help with
-some of them**
-
-You should be clear about what you want to achieve with ML, and make sure that
-you're not unnecessarily using it for applications that would be much more
-easily and effectively performed by a person or a simple program.
-
-Some examples of where machine learning could be useful:
-
-- **Highlighting unique sections from a large amount of data.**
-- **Sorting data in a way that you can't easily describe, but where you have a
-  lot of examples of data sorted in this way.**
-- **Finding similarities between data.**
-- **Finding patterns in large amounts of data.**
-
 Some examples of where machine learning is **not** useful:
 
 - **Sorting data in a way that you could easily describe**. If you're sorting
@@ -134,12 +150,9 @@ Some examples of where machine learning is **not** useful:
 - **Finding stories and meaning.** At the end of the day, machine learning
   algorithms are computer programs.
 
-There are a number of ways to use machine learning:
+## A demonstration and approach
 
-- Training your own machine learning algorithm.
-- Using a pre-trained model.
-- Using a cloud ML service.
-- Using a product that uses machine learning under the hood.
+[Bagel-Jam (Machine learning tools to analyse feedback)](https://github.com/ServiceInnovationLab/bagel-jam)
 
 ## Resources
 
