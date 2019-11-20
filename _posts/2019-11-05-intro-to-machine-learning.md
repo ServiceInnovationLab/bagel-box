@@ -22,8 +22,6 @@ be useful for you and your team.
 
 ## What it involves
 
-### Machine learning isn't magic... but it is pretty neat
-
 It is a blanket term for algorithms that learn from the past to predict future data.
 
 <div class="c-explanation">
@@ -153,6 +151,8 @@ Some examples of where machine learning is **not** useful:
   algorithms are computer programs.
 
 ## A demonstration and approach
+
+[Bagel-Jam (Machine learning tools to analyse feedback)](https://github.com/ServiceInnovationLab/bagel-jam)
 
 ## Resources
 
