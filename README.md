@@ -21,3 +21,10 @@ To run the server:
 ```bash
   bundle exec jekyll run server
 ```
+
+There is also a linter running with JS. To run this:
+
+```bash
+npm install
+npm run test-markdown
+```
