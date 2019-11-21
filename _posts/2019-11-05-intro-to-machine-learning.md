@@ -55,8 +55,10 @@ The input and output could be text, images, or structured data.
 In **unsupervised learning**:
 
 1. It's given a corpus of data.
-2. It finds patterns in the data, creates labels for those patterns, and forms a model for applying labels.
-3. It applies that model to the corpus it was trained on, or to other data in a similar format.
+2. It finds patterns in the data, creates labels for those patterns, and forms
+a model for applying labels.
+3. It applies that model to the corpus it was trained on, or to other data
+in a similar format.
 
 In **reinforcement learning**:
 
@@ -142,7 +144,9 @@ Some examples of where machine learning is **not** useful:
 ### Machine learning can be energy-hungry, data-hungry and time-consuming
 
 Deep learning algorithms can use enormous amounts of electricity, which comes
-with attendant carbon emissions - see [Energy and Policy Considerations for Deep Learning in NLP](https://arxiv.org/pdf/1906.02243.pdf), which found that training one transformer model could result in emissions of
+with attendant carbon emissions - see
+[Energy and Policy Considerations for Deep Learning in NLP](https://arxiv.org/pdf/1906.02243.pdf),
+which found that training one transformer model could result in emissions of
 over 280 tonnes of CO2e.
 
 Even if you're using one of the more efficient algorithms, training them still
@@ -166,17 +170,16 @@ reviewable.
 
 A machine learning model is biased by whatever it's been trained on.
 
-  - **Has it been trained on US English?** It might not be very good at judging
-    New Zealand English.
-  - **Has it been trained on decisions that were biased?** It will exhibit those
-    same biases when making future decisions.
-  - **Was it trained on a small dataset?** It might *over-fit* to that dataset -
-    if you've only shown it cats, it's not going to know what a dog is.
-  - Don't let it be the final arbiter. It can augment your decision-making, but
-    make sure that it's easy to override.
-  - Keep an eye out for errors and bias.
-  - Be transparent about the data it's trained on, and revisit it if necessary.
-
+- **Has it been trained on US English?** It might not be very good at judging
+  New Zealand English.
+- **Has it been trained on decisions that were biased?** It will exhibit those
+  same biases when making future decisions.
+- **Was it trained on a small dataset?** It might *over-fit* to that dataset -
+  if you've only shown it cats, it's not going to know what a dog is.
+- Don't let it be the final arbiter. It can augment your decision-making, but
+  make sure that it's easy to override.
+- Keep an eye out for errors and bias.
+- Be transparent about the data it's trained on, and revisit it if necessary.
 
 ## A demonstration and approach
 
