@@ -18,7 +18,7 @@ Some policy teams are reaching out to machine learning to solve their problems, 
 it's easy to get bamboozled by the complicated jargon in this area.
 
 This post is a primer on machine learning to help you figure out whether it would
-be useful for you and your team.
+be useful for you and your team, and how you might use it ethically and effectively.
 
 ## What it involves
 
@@ -53,6 +53,10 @@ In **supervised learning**:
 The input and output could be text, images, or structured data.
 
 In **unsupervised learning**:
+
+1. It's given a corpus of data.
+2. It finds patterns in the data, creates labels for those patterns, and forms a model for applying labels.
+3. It applies that model to the corpus it was trained on, or to other data in a similar format.
 
 In **reinforcement learning**:
 
@@ -111,11 +115,11 @@ easily and effectively performed by a person or a simple program.
 
 Some examples of where machine learning could be useful:
 
-- **Highlighting unique sections from a large amount of data.**
-- **Sorting data in a way that you can't easily describe, but where you have a
-  lot of examples of data sorted in this way.**
-- **Finding similarities between data.**
-- **Finding patterns in large amounts of data.**
+- Highlighting unique sections from a large amount of data.
+- Sorting data in a way that you can't easily describe, but where you have a
+  lot of examples of data sorted in this way.
+- Finding similarities between data.
+- Finding patterns in large amounts of data.
 
 There are a number of ways to use machine learning:
 
@@ -126,21 +130,6 @@ There are a number of ways to use machine learning:
 
 ## Limitations
 
-### Machine learning doesn't erase bias... but it's biased more consistently
-
-A machine learning model is biased by whatever it's been trained on.
-
-- **Has it been trained on US English?** It might not be very good at judging
-  New Zealand English.
-- **Has it been trained on decisions that were biased?** It will exhibit those
-  same biases when making future decisions.
-- **Was it trained on a small dataset?** It might *over-fit* to that dataset -
-  if you've only shown it cats, it's not going to know what a dog is.
-- Don't let it be the final arbiter. It can augment your decision-making, but
-  make sure that it's easy to override.
-- Keep an eye out for errors and bias.
-- Be transparent about the data it's trained on, and revisit it if necessary.
-
 Some examples of where machine learning is **not** useful:
 
 - **Sorting data in a way that you could easily describe**. If you're sorting
@@ -150,13 +139,54 @@ Some examples of where machine learning is **not** useful:
 - **Finding stories and meaning.** At the end of the day, machine learning
   algorithms are computer programs.
 
+### Machine learning can be energy-hungry, data-hungry and time-consuming
+
+Deep learning algorithms can use enormous amounts of electricity, which comes
+with attendant carbon emissions - see [Energy and Policy Considerations for Deep Learning in NLP](https://arxiv.org/pdf/1906.02243.pdf), which found that training one transformer model could result in emissions of
+over 280 tonnes of CO2e.
+
+Even if you're using one of the more efficient algorithms, training them still
+tends to use a lot of computational power, you need a lot of data to tune it,
+and it can take a long time to make it work.
+
+### Machine learning is difficult to inspect
+
+If a decision made by a regular algorithm is challenged, it's generally possible
+to find why that decision was made, and change the code to address
+future problems if it was in error.
+
+This is very difficult with most machine learning algorithms, and impossible
+with some.
+
+Keep this in mind when deciding whether to use machine learning in decisions
+that directly affect peoples' lives, and particularly in decisions that must be
+reviewable.
+
+### Machine learning doesn't erase bias... but it's biased more consistently
+
+A machine learning model is biased by whatever it's been trained on.
+
+  - **Has it been trained on US English?** It might not be very good at judging
+    New Zealand English.
+  - **Has it been trained on decisions that were biased?** It will exhibit those
+    same biases when making future decisions.
+  - **Was it trained on a small dataset?** It might *over-fit* to that dataset -
+    if you've only shown it cats, it's not going to know what a dog is.
+  - Don't let it be the final arbiter. It can augment your decision-making, but
+    make sure that it's easy to override.
+  - Keep an eye out for errors and bias.
+  - Be transparent about the data it's trained on, and revisit it if necessary.
+
+
 ## A demonstration and approach
 
 [Bagel-Jam (Machine learning tools to analyse feedback)](https://github.com/ServiceInnovationLab/bagel-jam)
 
 ## Resources
 
+- [Draft Algorithm Charter - data.govt.nz](https://data.govt.nz/use-data/analyse-data/government-algorithm-transparency-and-accountability/draft-algorithm-charter/)
 - [Machine Learning for Policymakers - Belfer Center](https://www.belfercenter.org/sites/default/files/files/publication/MachineLearningforPolicymakers.pdf)
 - [Machine Learning for Humans](https://medium.com/machine-learning-for-humans/why-machine-learning-matters-6164faf1df12)
 - [How Machine Learning can Transform Citizen Engagement Projects](https://www.citizenlab.co/blog/product-update/natural-language-processing-at-citizenlab-how-machine-learning-can-transform-citizen-engagement-projects/)
 - [Citizen participation and machine learning for a better democracy](https://www.turing.ac.uk/research/research-projects/citizen-participation-and-machine-learning-better-democracy)
+- [Energy and Policy Considerations for Deep Learning in NLP](https://arxiv.org/pdf/1906.02243.pdf)
