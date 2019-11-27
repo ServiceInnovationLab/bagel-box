@@ -17,7 +17,7 @@ data:
   link: ''
 - name: MAXQDA
   report_author: Ross
-  description: world-leading software package for qualitative and mixed methods research
+  description: qualitative and mixed methods research
   reo: 'No'
   cloud_local: Local
   cost: "Standard $959\nPlus $1139\nAnalytics Pro \n$1373"
@@ -64,8 +64,7 @@ data:
   link: https://github.com/cjhutto/vaderSentiment
 - name: NVivo
   report_author: Ross
-  description: most powerful software for gaining richer insights from qualitative
-    and mixed-methods data
+  description: desktop software for coding and theming, with extra features
   reo: 'No'
   cloud_local: Local
   cost: $1119  USD
@@ -153,7 +152,7 @@ data:
   input: '?'
   output: '?'
   community: ''
-  features: Finds actionable themes in raw data & turns it into a recommendations
+  features: Finds themes in raw data & turns it into a recommendations
     engine & gives you the tools to get stakeholders on board and build customer-centric
     processes.
   nz_use: ''
@@ -335,15 +334,6 @@ data:
     or even data from Evernote, Twitter, import entire surveys, etc.'
   output: ''
   community: ''
-  features: 'The quotation level is also radically unique to ATLAS.ti. If offers an
-    analytic level below coding and better supports inductive, interpretive research
-    approaches like grounded theory, hermeneutic, discourse analysis, sociology of
-    knowledge, or phenomenology than any other software.
-
-
-    This can also be said about the ATLAS.ti network / visualization function. It
-    offers the most integrated way of working with your data, it is a tool for visualization
-    as well as for analysis, for data organization as well as conceptual level analytic
-    work and data presentation.'
+  features: 'Quotation level, network/visualisation functions'
   nz_use: ''
   link: https://atlasti.com/product/what-is-atlas-ti/
