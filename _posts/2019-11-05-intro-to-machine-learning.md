@@ -176,8 +176,10 @@ A machine learning model is biased by whatever it's been trained on.
   same biases when making future decisions.
 - **Was it trained on a small dataset?** It might *over-fit* to that dataset -
   if you've only shown it cats, it's not going to know what a dog is.
-- Give machines tasks that machines are good at, like following straightforward rules
-  and give people tasks that people are good at, like judging context and having empathy.
+- Give machines tasks that machines are good at, like following
+  straightforward rules
+  and give people tasks that people are good at, like judging
+  context and having empathy.
 - Don't let it be the final arbiter of all decisions.
 - Keep an eye out for errors and bias.
 - Be transparent about the data it's trained on, and revisit it if necessary.
