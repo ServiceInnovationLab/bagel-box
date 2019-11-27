@@ -1,6 +1,7 @@
 ---
-title: An Intro to Machine Learning for Policy Analysts
+title: Machine Learning Primer
 layout: post
+permalink: /intro/
 ---
 
 <p class="t-intro">
@@ -183,10 +184,6 @@ A machine learning model is biased by whatever it's been trained on.
 - Don't let it be the final arbiter of all decisions.
 - Keep an eye out for errors and bias.
 - Be transparent about the data it's trained on, and revisit it if necessary.
-
-## A demonstration and approach
-
-[Bagel-Jam (Machine learning tools to analyse feedback)](https://github.com/ServiceInnovationLab/bagel-jam)
 
 ## Resources
 

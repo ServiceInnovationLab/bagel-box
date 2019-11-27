@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Matrix
+title: Tool Options
 permalink: /matrix/
 ---
 
