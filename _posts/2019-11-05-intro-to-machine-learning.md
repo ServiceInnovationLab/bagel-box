@@ -176,8 +176,9 @@ A machine learning model is biased by whatever it's been trained on.
   same biases when making future decisions.
 - **Was it trained on a small dataset?** It might *over-fit* to that dataset -
   if you've only shown it cats, it's not going to know what a dog is.
-- Don't let it be the final arbiter. It can augment your decision-making, but
-  make sure that it's easy to override.
+- Give machines tasks that machines are good at, like following straightforward rules
+  and give people tasks that people are good at, like
+- Don't let it be the final arbiter of all decisions.
 - Keep an eye out for errors and bias.
 - Be transparent about the data it's trained on, and revisit it if necessary.
 
@@ -188,6 +189,7 @@ A machine learning model is biased by whatever it's been trained on.
 ## Resources
 
 - [Draft Algorithm Charter - data.govt.nz](https://data.govt.nz/use-data/analyse-data/government-algorithm-transparency-and-accountability/draft-algorithm-charter/)
+- [Artificial Intelligence and Law in New Zealand - Otago University](https://www.cs.otago.ac.nz/research/ai/AI-Law/outputs.html)
 - [Machine Learning for Policymakers - Belfer Center](https://www.belfercenter.org/sites/default/files/files/publication/MachineLearningforPolicymakers.pdf)
 - [Machine Learning for Humans](https://medium.com/machine-learning-for-humans/why-machine-learning-matters-6164faf1df12)
 - [How Machine Learning can Transform Citizen Engagement Projects](https://www.citizenlab.co/blog/product-update/natural-language-processing-at-citizenlab-how-machine-learning-can-transform-citizen-engagement-projects/)
