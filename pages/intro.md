@@ -2,6 +2,7 @@
 title: Designing The Feedback Loop
 layout: post
 permalink: /intro/
+in_nav: true
 ---
 
 <p class="t-intro">

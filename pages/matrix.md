@@ -2,6 +2,7 @@
 title: Analysis Tool Matrix
 layout: page
 permalink: /matrix/
+in_nav: true
 ---
 
 <!-- Pulls from _data links -->

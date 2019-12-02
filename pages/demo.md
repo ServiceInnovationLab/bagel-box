@@ -2,6 +2,7 @@
 title: Machine Learning & Demo
 layout: post
 permalink: /demo/
+in_nav: true
 ---
 
 <p class="t-intro">
