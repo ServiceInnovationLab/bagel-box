@@ -1,16 +1,11 @@
 <header class="site-header" role="banner">
   <div class="wrapper">
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title }}</a>
-    {% for page in site.pages %}
-      {% if page.title == "Contact us" %}
-      <a class="contact-us-link" href="{{ page.permalink | prepend: site.baseurl }}">{{ page.title }}</a>
-      {% endif %}
-    {% endfor %}
   </div>
 </header>
 <div class="disclaimer">
   <div class="wrapper">
-    <p>This is a work in progress by the <strong><a href="">Service Innovation Lab</a></strong>. Pull requests are welcome on <strong><a href="https://github.com/ServiceInnovationLab/bagel-box">GitHub</a></strong>.</p>
+    <p>This is a work in progress by the <strong><a href="https://serviceinnovationlab.github.io/">Service Innovation Lab</a></strong>. Pull requests are welcome on <strong><a href="https://github.com/ServiceInnovationLab/bagel-box">GitHub</a></strong>.</p>
   </div>
 </div>
 <nav class="site-nav">
