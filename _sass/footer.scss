@@ -21,6 +21,17 @@
       width: -webkit-calc(100% - (#{$spacing-unit} / 2));
       width:         calc(100% - (#{$spacing-unit} / 2));
     }
+
+    .SIL-logo {
+      height: 63px;
+      width: 130px;
+      padding: 0 5px 0 0;
+    }
+
+    .govt-logo {
+      height: 17px;
+      width: 170px;
+    }
   }
 }
 
@@ -31,8 +42,8 @@
 }
 
 .govt-logo {
-  height: 26px;
-  width: 203px;
+  height: 21px;
+  width: 200px;
   padding: 0 20px 10px 0;
 }
 
