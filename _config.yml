@@ -25,7 +25,7 @@ baseurl: "/bagel-box"
 # the base hostname & protocol for your site, e.g. http://example.com
 url: "https://serviceinnovationlab.github.io/"
 
-github_username: Service Innovation Lab GitHub
+github_username: ServiceInnovationLab
 
 # Build settings
 markdown: kramdown
