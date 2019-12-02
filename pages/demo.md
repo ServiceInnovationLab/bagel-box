@@ -1,5 +1,5 @@
 ---
-title: Demo
+title: Machine Learning & Demo
 layout: post
 permalink: /demo/
 ---

@@ -1,6 +1,6 @@
 ---
+title: Analysis Tool Matrix
 layout: page
-title: Tool Options
 permalink: /matrix/
 ---
 

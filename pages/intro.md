@@ -1,5 +1,5 @@
 ---
-title: Machine Learning Primer
+title: Designing The Feedback Loop
 layout: post
 permalink: /intro/
 ---
