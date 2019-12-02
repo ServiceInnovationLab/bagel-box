@@ -34,9 +34,7 @@
   text-align: center;
   line-height: $base-line-height * $base-font-size * 2.25;
   background-color: $color-bright;
-  width: 100%;
   overflow: auto;
-  width: 37px;
   
   .nav-trigger {
     display: none;
@@ -48,28 +46,36 @@
   }
 
   .trigger {
+    max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+    @extend %clearfix;
+  
+    @include media-query($on-laptop) {
+      max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+      max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+      padding-right: $spacing-unit / 2;
+      padding-left: $spacing-unit / 2;
+    }
+
     a {
       padding: 12px;
       color: white;
       text-decoration: none;
-      font-size: 17px;
-      font-weight: bold;;
+      font-weight: bold;
       text-align: center;
     }
 
     a:hover {
-      background-color: #DEDEDE;
+      background-color: $color-gray;
       color: $color-bright;
     }
     
     .page-link {
       color: #FFF;
       line-height: $base-line-height;
-
-      // // Gaps between nav items, but not on the last one
-      // &:not(:last-child) {
-      //   margin-right: 20px;
-      // }
     }
   }
 
@@ -119,12 +125,7 @@
       display: block;
       padding: 5px 10px;
       background-color: $color-bright;
-      margin-left: 20px;
-
-      &:not(:last-child) {
-        margin-right: 0;
-      }
-    } 
+    }
   }
 }
 
@@ -135,7 +136,7 @@
  */
 .site-footer {
   border-top: 1px solid $grey-color-light;
-  padding: $spacing-unit 0;
+  padding: 10px 0;
   background: black;
 }
 

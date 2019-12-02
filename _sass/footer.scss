@@ -35,31 +35,21 @@
   }
 }
 
-.SIL-logo {
-  height: 68px;
-  width: 163px;
+.footer-logos {
+  display: flex;
+  width: 200px;
+}
+
+.sil-logo {
   padding: 0 10px 0 0;
+
+  flex-shrink: 1;
 }
 
 .govt-logo {
   height: 21px;
   width: 200px;
-  padding: 0 20px 10px 0;
-}
-
-.cc-logo {
-  width: 85px;
-  height: 40px;
-  padding: 0 0 10px 0;
-}
-
-.licence {
-  color: $color-lightest;
-  font-size: 13px;
-
-  a {
-    color: $color-lightest;
-  }
+  padding: 10px 20px 10px 0;
 }
 
 .username-github {
@@ -67,6 +57,20 @@
   display: inline-block;
   font-size: 12px;
   padding-right: 20px;
+
+  a {
+    color: $color-lightest;
+  }
+}
+
+.cc-logo {
+  padding: 0 0 10px 0;
+}
+
+.licence {
+  color: $color-lightest;
+  font-size: 13px;
+  padding: 10px 0 0 0;
 
   a {
     color: $color-lightest;
