@@ -12,11 +12,12 @@
 
 .site-title {
   @include relative-font-size(1.625);
-  font-weight: 300;
+  font-weight: bold;
   line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
+  text-transform: uppercase;
 
   &,
   &:visited {
@@ -24,25 +25,50 @@
   }
 }
 
-.site-nav {
+.contact-us-link {
   float: right;
-  line-height: $base-line-height * $base-font-size * 2.25;
+  padding-top: 1em;
+}
 
+.site-nav {
+  text-align: center;
+  line-height: $base-line-height * $base-font-size * 2.25;
+  background-color: $color-bright;
+  width: 100%;
+  overflow: auto;
+  
   .nav-trigger {
-      display: none;
+    display: none;
+    background-color: $color-bright;
   }
 
   .menu-icon {
     display: none;
   }
 
-  .page-link {
-    color: $text-color;
-    line-height: $base-line-height;
+  .trigger {
+    a {
+      padding: 12px;
+      color: white;
+      text-decoration: none;
+      font-size: 17px;
+      font-weight: bold;;
+      text-align: center;
+    }
 
-    // Gaps between nav items, but not on the last one
-    &:not(:last-child) {
-      margin-right: 20px;
+    a:hover {
+      background-color: #DEDEDE;
+      color: $color-bright;
+    }
+    
+    .page-link {
+      color: #FFF;
+      line-height: $base-line-height;
+
+      // // Gaps between nav items, but not on the last one
+      // &:not(:last-child) {
+      //   margin-right: 20px;
+      // }
     }
   }
 
@@ -91,12 +117,13 @@
     .page-link {
       display: block;
       padding: 5px 10px;
+      background-color: $color-bright;
+      margin-left: 20px;
 
       &:not(:last-child) {
         margin-right: 0;
       }
-      margin-left: 20px;
-    }
+    } 
   }
 }
 
@@ -108,6 +135,7 @@
 .site-footer {
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
+  background: black;
 }
 
 .footer-heading {
@@ -121,33 +149,26 @@
   margin-left: 0;
 }
 
-.footer-col-wrapper {
-  @include relative-font-size(0.9375);
-  color: $grey-color;
-  margin-left: -$spacing-unit / 2;
-  @extend %clearfix;
-}
-
 .footer-col {
   float: left;
   margin-bottom: $spacing-unit / 2;
   padding-left: $spacing-unit / 2;
 }
 
-.footer-col-1 {
-  width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-  width:         calc(35% - (#{$spacing-unit} / 2));
-}
+// .footer-col-1 {
+//   width: -webkit-calc(35% - (#{$spacing-unit} / 2));
+//   width:         calc(35% - (#{$spacing-unit} / 2));
+// }
 
-.footer-col-2 {
-  width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-  width:         calc(20% - (#{$spacing-unit} / 2));
-}
+// .footer-col-2 {
+//   width: -webkit-calc(20% - (#{$spacing-unit} / 2));
+//   width:         calc(20% - (#{$spacing-unit} / 2));
+// }
 
-.footer-col-3 {
-  width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-  width:         calc(45% - (#{$spacing-unit} / 2));
-}
+// .footer-col-3 {
+//   width: -webkit-calc(45% - (#{$spacing-unit} / 2));
+//   width:         calc(45% - (#{$spacing-unit} / 2));
+// }
 
 @include media-query($on-laptop) {
   .footer-col-1,

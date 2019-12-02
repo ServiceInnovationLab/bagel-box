@@ -1,0 +1,63 @@
+.footer-col-wrapper {
+  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+  margin-right: auto;
+  margin-left: auto;
+  // padding-right: $spacing-unit;
+  // padding-left: $spacing-unit;
+  @extend %clearfix;
+  color: $color-lightest;
+
+  @include media-query($on-laptop) {
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+    padding-right: $spacing-unit / 2;
+    padding-left: $spacing-unit / 2;
+  }
+
+  @include media-query($on-palm) {
+    .footer-col {
+      float: none;
+      width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+      width:         calc(100% - (#{$spacing-unit} / 2));
+    }
+  }
+}
+
+.SIL-logo {
+  height: 68px;
+  width: 163px;
+  padding: 0 10px 0 0;
+}
+
+.govt-logo {
+  height: 26px;
+  width: 203px;
+  padding: 0 20px 10px 0;
+}
+
+.cc-logo {
+  width: 85px;
+  height: 40px;
+  padding: 0 0 10px 0;
+}
+
+.licence {
+  color: $color-lightest;
+  font-size: 13px;
+
+  a {
+    color: $color-lightest;
+  }
+}
+
+.username-github {
+  width: 208px;
+  display: inline-block;
+  font-size: 12px;
+  padding-right: 20px;
+
+  a {
+    color: $color-lightest;
+  }
+}
