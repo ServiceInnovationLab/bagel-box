@@ -22,15 +22,30 @@
       width:         calc(100% - (#{$spacing-unit} / 2));
     }
 
-    .SIL-logo {
-      height: 63px;
-      width: 130px;
-      padding: 0 5px 0 0;
+    .footer-logos {
+      flex-direction: column;
+    }
+
+    .sil-logo {
+      padding: 5px 0 5px 0;
     }
 
     .govt-logo {
       height: 17px;
       width: 170px;
+      padding: 10px 20px 10px 0;
+    }
+
+    .username-github {
+      padding: 0;
+    }
+
+    .cc-logo {
+      padding: 10px 0 5px 0;
+    }
+
+    .licence {
+      padding: 0;
     }
   }
 }
