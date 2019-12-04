@@ -1,7 +1,8 @@
 ---
+title: Analysis Tool Matrix
 layout: page
-title: Tool Options
 permalink: /matrix/
+in_nav: true
 ---
 
 <!-- Pulls from _data links -->

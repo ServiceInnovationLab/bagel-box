@@ -2,6 +2,7 @@
 title: Machine Learning Primer
 layout: post
 permalink: /intro/
+in_nav: true
 ---
 
 <p class="t-intro">

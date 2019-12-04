@@ -1,16 +1,10 @@
 .disclaimer {
   width: 100%;
-  background-color: $color-bright;
+  background-color: $color-black;
   color: #FFF;
-  padding: 1em;
-  h4 {
-    font-weight: bold;
-  }
+  padding-top: 1em;
+
   a {
     color: #FFF;
-    text-decoration: underline;
-  }
-  &__content {
-
   }
 }
