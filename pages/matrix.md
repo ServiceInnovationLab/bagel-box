@@ -15,19 +15,20 @@ in_nav: true
     <thead>
       <tr>
         <th>Name</th>
-        <th>Description</th>
-        <th>Features</th>
-        <th>Reo</th>
-        <th>Cloud/Local/Other</th>
+        <th>What it is</th>
+        <th>Why you should use it</th>
+        <th>Ideal circumstances for use</th>
+        <th>Limitations</th>
+        <th>Where is it used</th>
+        <th>Te Reo compatibility concerns</th>
+        <th>Cloud/Local</th>
         <th>Cost</th>
-        <th>Open Source</th>
         <th>Theming</th>
         <th>Sentiment</th>
-        <th>Input</th>
-        <th>Output</th>
-        <th>Community</th>
-        <th>Used in NZ?</th>
-        <th>Link</th>
+        <th>Input format</th>
+        <th>Output format</th>
+        <th>Features</th>
+        <th>Link for further info</th>
       </tr>
     </thead>
     <tbody>
@@ -35,17 +36,18 @@ in_nav: true
         <tr>
           <td><strong>{{ row.name }}</strong></td>
           <td>{{ row.description }}</td>
-          <td>{{ row.features }}</td>
+          <td>{{ row.why }}</td>
+          <td>{{ row.ideal }}</td>
+          <td>{{ row.limitations }}</td>
+          <td>{{row.nz_use}}</td>
           <td>{{row.reo}}</td>
           <td>{{row.cloud_local}}</td>
           <td>{{row.cost}}</td>
-          <td>{{row.open_source}}</td>
           <td>{{row.theming}}</td>
           <td>{{row.sentiment}}</td>
           <td>{{row.input}}</td>
           <td>{{row.output}}</td>
-          <td>{{row.community}}</td>
-          <td>{{row.nz_use}}</td>
+          <td>{{ row.features }}</td>
           <td>{{row.link}}</td>
         </tr>
       {% endfor %}
