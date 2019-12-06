@@ -42,6 +42,7 @@ if __name__ == "__main__":
                 for label in labels:
                     value = line[column]
                     hash[label] = value
+                    column += 1
                 data.append(hash)
 
     with open(yaml_filename, 'w') as yaml_file:
