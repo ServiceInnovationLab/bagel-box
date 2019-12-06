@@ -1,5 +1,5 @@
 ---
-title: Machine Learning Primer
+title: Introduction to Machine Learning
 layout: page
 permalink: /intro/
 in_nav: true
