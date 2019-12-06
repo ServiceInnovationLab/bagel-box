@@ -17,6 +17,7 @@ in_nav: true
     <li><a href="#Limitations">Limitations</a></li>
   </ol>
 
+  <a name="About-keeping-your-participants-informed"></a>
   <h3> About keeping your participants informed</h3>
 
   <p>For any engagement to be successful, it is essential that you communicate your findings back to your participants. Once you have finished the engagement, you want to keep them informed and involved and let them know you have heard them and that you value their input and knowledge. To build trust and to encourage people to stay involved, this process should be transparent. It is also ideal to consult with your participants on the format they would like to receive the feedback in. The format may be different depending on the community you are consulting with.</p>
