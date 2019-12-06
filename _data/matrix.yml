@@ -1,28 +1,17 @@
----
 data:
-- name: Many Chat
-  report_author: ''
-  description: ''
-  reo: ''
-  cloud_local: ''
-  cost: ''
-  open_source: ''
-  theming: ''
-  sentiment: ''
-  input: ''
-  output: ''
-  community: ''
-  features: ''
-  nz_use: ''
-  link: ''
 - name: MAXQDA
-  report_author: Ross
-  description: qualitative and mixed methods research
-  reo: 'No'
+  description: Software package for qualitative and mixed methods research
+  why: ''
+  ideal: ''
+  limitations: '- Doesn''t cope well with >2000 documents
+
+    - Projects cannot be accessed simultaneously by multiple users. Rather team members
+    must have access to the program, work separately, and then merge files together.'
+  nz_use: DoC
+  reo: N/A
   cloud_local: Local
   cost: "Standard $959\nPlus $1139\nAnalytics Pro \n$1373"
-  open_source: 'No'
-  theming: '"Coding"'
+  theming: 'Yes'
   sentiment: 'No'
   input: 'Audio
 
@@ -36,304 +25,240 @@ data:
 
     Mixed methods features: Stats and graphs, cross tabs, similarity analysis, quote
     matrix.'
-  community: ''
   features: ''
-  nz_use: 'Department of Conservation
-
-    Gavin Bryce (DoC)  gbryce@doc.govt.nz'
   link: https://www.maxqda.com/what-is-maxqda
-- name: VaDer
-  report_author: Brenda
-  description: 'Uses a dictionary of sentiment to work ranking
-
-    '
-  reo: outta the box it doesn't recognise the any kupu maori unless you add to the
-    dictionary
-  cloud_local: local
-  cost: $0
-  open_source: MIT
-  theming: 'No'
-  sentiment: 'Yes'
-  input: Text (cli)
-  output: 'commandline, pos,neg,neu, composite
-
-    '
-  community: ''
-  features: ''
-  nz_use: ''
-  link: https://github.com/cjhutto/vaderSentiment
 - name: NVivo
-  report_author: Ross
-  description: desktop software for coding and theming, with extra features
-  reo: 'No'
+  description: Software for gaining insights from qualitative and mixed-methods data
+  why: Industry standard, lots of people in government use it
+  ideal: ''
+  limitations: '- Difficult to extract data
+
+    - Importing large datasets can take a large amount of time or may result in an
+    error message
+
+    - NVivo Mac has limited functionality (e.g. undo option not available for all
+    actions)
+
+    - Files from other programs, such as OneNote, not always imported accurately (i.e.
+    missing data, change in layout).'
+  nz_use: MoE, MfE
+  reo: N/A
   cloud_local: Local
   cost: $1119  USD
-  open_source: 'no'
   theming: 'Yes'
-  sentiment: No? Can't tell
+  sentiment: 'No'
   input: text, audio, video, emails, images, spreadsheets, online surveys, social
     and web content and more
   output: 'wordcloud, word trees, mindmap for nodes, heading formatting.    '
-  community: ''
   features: ''
-  nz_use: ''
-  link: ''
-- name: Pol.is
-  report_author: Jacob
-  description: Visualising what organisational members think.
-  reo: '?'
-  cloud_local: Cloud
-  cost: '? Contact for demo/pricing'
-  open_source: 'No'
-  theming: '?'
-  sentiment: '?'
-  input: '?'
-  output: '?'
-  community: ''
-  features: Polis clusters participants to define the opinion landscape, identifying
-    points of consensus and divergence.
-  nz_use: ''
-  link: https://pol.is/home
-- name: Google Natural Language processing
-  report_author: Merrin
-  description: Google's API for natural language processing
-  reo: 'no'
-  cloud_local: Cloud
-  cost: free for low use, priced per 1000 calls after that - https://cloud.google.com/natural-language/pricing
-  open_source: 'no'
-  theming: not really - 'content classification'
-  sentiment: yes - overall sentiments, and sentiment for entities
-  input: text
-  output: JSON
-  community: ''
-  features: ''
-  nz_use: ''
-  link: https://cloud.google.com/natural-language/
-- name: Amazon Comprehend
-  report_author: Merrin
-  description: Amazon's API for natural language processing
-  reo: 'no'
-  cloud_local: Cloud
-  cost: USD$0.01 per unit
-  open_source: 'no'
-  theming: can do
-  sentiment: 'yes'
-  input: text
-  output: JSON
-  community: ''
-  features: ''
-  nz_use: ''
-  link: https://aws.amazon.com/comprehend/
-- name: Microsoft Text Analysis
-  report_author: Merrin
-  description: Microsoft's API for natural language processing
-  reo: 'no'
-  cloud_local: Cloud
-  cost: Pricing is a bit confusing - https://azure.microsoft.com/en-us/pricing/details/cognitive-services/text-analytics/
-  open_source: 'no'
-  theming: key phrase detection'
-  sentiment: 'yes'
-  input: text
-  output: JSON
-  community: ''
-  features: "Sentiment analysis, key phrase extraction, language detection (not including\
-    \ Te Reo M\u0101ori)"
-  nz_use: ''
-  link: https://azure.microsoft.com/en-us/services/cognitive-services/text-analytics/
-- name: Thematic
-  report_author: Jacob
-  description: Finds actionable themes in raw data
-  reo: 'No'
-  cloud_local: Cloud
-  cost: '? Contact for demo/pricing'
-  open_source: 'No'
-  theming: 'Yes'
-  sentiment: 'No'
-  input: '?'
-  output: '?'
-  community: ''
-  features: Finds themes in raw data & turns it into a recommendations
-    engine & gives you the tools to get stakeholders on board and build customer-centric
-    processes.
-  nz_use: ''
-  link: https://getthematic.com/
-- name: MonkeyLearn
-  report_author: Jacob
-  description: Train custom machine learning models to get topic, sentiment, intent,
-    keywords and more.
-  reo: 'No'
-  cloud_local: Cloud
-  cost: 'Free - 300 Querries/mth; Low API Speed; 1 Small Custom Model
-
-    Team (Free) - 10000 Querries/mth; Medium API Speed; 3 Small Custom Models
-
-    Business (Schedule a Demo) - On Demand pricing.'
-  open_source: 'No'
-  theming: 'No'
-  sentiment: 'Yes'
-  input: 'CSV/Excel Files OR via direct integrations, Zapier or API.
-
-    Text format such as: Emails; Support Tickets; Reviews; NPS Feedback; Surveys;
-    Social Media.'
-  output: '?'
-  community: ''
-  features: Build text classifiers for detecting topic, sentiment, intent, urgency
-    and more.; Build text extractors to identify specific data within text, including
-    keywords, entities, features, and more.
-  nz_use: ''
-  link: 'https://monkeylearn.com/
-
-
-    https://monkeylearn.com/integrations/
-
-    '
-- name: OpenNLP
-  report_author: Jacob
-  description: OpenNLP supports the most common NLP tasks.
-  reo: 'No'
-  cloud_local: Local
-  cost: Free
-  open_source: 'Yes'
-  theming: 'No'
-  sentiment: 'Yes'
-  input: The input and the output formats are specific to the tool, but often the
-    output is an array of String, and the input is a String or an array of String.
-  output: ''
-  community: ''
-  features: Tokenization, sentence segmentation, part-of-speech tagging, named entity
-    extraction, chunking, parsing, language detection and coreference resolution.
-  nz_use: ''
-  link: https://opennlp.apache.org/
-- name: Latent Dirichlet allocation
-  report_author: Merrin
-  description: ''
-  reo: ''
-  cloud_local: ''
-  cost: ''
-  open_source: ''
-  theming: ''
-  sentiment: ''
-  input: ''
-  output: ''
-  community: ''
-  features: ''
-  nz_use: ''
-  link: ''
-- name: Opinionated NLP Analysis
-  report_author: ''
-  description: ''
-  reo: ''
-  cloud_local: ''
-  cost: ''
-  open_source: ''
-  theming: ''
-  sentiment: ''
-  input: ''
-  output: ''
-  community: ''
-  features: ''
-  nz_use: ''
-  link: ''
-- name: TextRank / PyTextRank
-  report_author: Jacob
-  description: Text summarization and keyword extraction.
-  reo: 'No'
-  cloud_local: Local
-  cost: Free
-  open_source: 'Yes'
-  theming: 'No'
-  sentiment: 'No'
-  input: Text
-  output: Text
-  community: ''
-  features: Text summarization and keyword extraction.
-  nz_use: ''
-  link: 'https://github.com/summanlp/textrank
-
-
-    https://pypi.org/project/summa/'
-- name: Skip-thoughts
-  report_author: Jacob
-  description: Sentence encoder.
-  reo: 'No'
-  cloud_local: Local
-  cost: Free
-  open_source: 'Yes'
-  theming: 'No'
-  sentiment: 'No'
-  input: ''
-  output: ''
-  community: ''
-  features: Sentence encoder.
-  nz_use: ''
-  link: 'https://github.com/tensorflow/models/tree/master/research/skip_thoughts
-
-
-    https://pypi.org/project/skip-thoughts/'
-- name: NLTK
-  report_author: Jacob
-  description: NLTK is a leading platform for building Python programs to work with
-    human language data.
-  reo: 'No'
-  cloud_local: Local
-  cost: Free
-  open_source: 'Yes'
-  theming: 'No'
-  sentiment: 'Yes'
-  input: String
-  output: ''
-  community: ''
-  features: Classification, tokenization, stemming, tagging, parsing, and semantic
-    reasoning.
-  nz_use: ''
-  link: http://www.nltk.org/
-- name: TextBlob
-  report_author: Jacob
-  description: TextBlob is a Python (2 & 3) library for processing textual data.
-  reo: 'No'
-  cloud_local: Local
-  cost: Free
-  open_source: 'Yes'
-  theming: 'No'
-  sentiment: 'Yes'
-  input: String, CSV, JSON & TSV
-  output: String, int
-  community: ''
-  features: Common NLP tasks such as part-of-speech tagging, noun phrase extraction,
-    sentiment analysis, classification, translation, and more.
-  nz_use: ''
-  link: https://textblob.readthedocs.io/en/dev/index.html#
-- name: spaCy
-  report_author: Jacob
-  description: Advanced NLP in Python.
-  reo: 'No'
-  cloud_local: Local
-  cost: Free
-  open_source: 'Yes'
-  theming: 'No'
-  sentiment: 'No'
-  input: json, jsonl
-  output: json,jsonl, msg
-  community: ''
-  features: It can be used to build information extraction or natural language understanding
-    systems, or to pre-process text for deep learning.
-  nz_use: ''
-  link: https://spacy.io/
+  link: https://www.qsrinternational.com/nvivo/what-is-nvivo
 - name: Atlas.ti
-  report_author: Jacob
-  description: ATLAS.ti is a powerful workbench for the qualitative analysis of large
-    bodies of textual, graphical, audio and video data.
-  reo: 'No'
+  description: Software for the qualitative analysis of large bodies of textual, graphical,
+    audio and video data.
+  why: Qualitative data analysis tool that helps analyze documents, websites, and
+    social media data.
+  ideal: Capturing perspectives & insights into primary or secondary research.
+  limitations: '- Managing the project requires care because of the external database
+    system - changes need to be carefully saved.
+
+    - Main working code list does not have a functioning hierarchical structure.
+
+    - Query tool lacks the ability to integrate searchers for text with searches for
+    coded data.'
+  nz_use: ''
+  reo: N/A
   cloud_local: Cloud/Local
   cost: Free Trial Version & Paid Licences
-  open_source: 'No'
   theming: 'No'
   sentiment: 'Yes'
   input: '.txt; .doc; .docx; .odt; .pdf; .wav; .mp3; .wma; etc
 
     or even data from Evernote, Twitter, import entire surveys, etc.'
   output: ''
-  community: ''
-  features: 'Quotation level, network/visualisation functions'
-  nz_use: ''
+  features: '- Offers an analytic level below coding
+
+    - Supports inductive, interpretive research approaches like grounded theory, hermeneutic,
+    discourse analysis, sociology of knowledge, or phenomenology
+
+    - Network/visualization function
+
+    - Offers an integrated way of working with your data
+
+    - Produces visualization for analysis, for data organization as well as conceptual
+    level analytic work and data presentation.
+
+    - Able to create tags separate from codes'
   link: https://atlasti.com/product/what-is-atlas-ti/
+- name: Dedoose
+  description: Software designed to support researchers, evaluators, and their teams
+    looking to incorporated qualitative and mixed methods approaches in their working
+    with text, audio, video, images, and survey and test data.
+  why: Allows collaboration
+  ideal: ''
+  limitations: '- Need Internet to use
+
+    - Data security concerns with web-based features
+
+    - Potential to lose data with web-based feature; however, nightly backups of data
+    and data encryption for privacy and security are available'
+  nz_use: ''
+  reo: N/A
+  cloud_local: Cloud
+  cost: 'Individual - $14.95USD/Per Active Month
+
+
+    Small Group (2-5 users) - $12.95USD/Per Active User Per Month
+
+
+    Student (with valid student ID) - $10.95USD/Per Active Month
+
+
+    Large Group (6+ users) - $10.95USD/Per User Per Month
+
+
+    First 30 Days FREE'
+  theming: 'Yes'
+  sentiment: 'Yes'
+  input: rtf, txt, doc, docx, xlm, xls, xlsx, htm, html, mp3, wav, m4a, wma, mp4
+  output: "Data analysis and visualizations are exported to CSV files\t"
+  features: '- Web-based
+
+    - Supports wide range of files
+
+    - Teamwork is in real time and users can be assigned roles within Dedoose to control
+    the flow of data
+
+    - Interactive visualization and analytics
+
+    - Calculates interrater reliability'
+  link: https://www.dedoose.com
+- name: Thematic
+  description: Finds themes in feedback data, highlights their impact on key metrics,
+    and visualizes insights in dashboards and reports.
+  why: ''
+  ideal: ''
+  limitations: Made mainly for customer feedback
+  nz_use: ''
+  reo: N/A
+  cloud_local: Cloud
+  cost: '? Contact for demo/pricing'
+  theming: 'Yes'
+  sentiment: 'No'
+  input: Thematic API, SFTP, InMoment, AskNicely, SurveyMonkey, SurveyGizmo, Medallia,
+    Salesforce and many other ways
+  output: Powerpoint slides, personalised dashboards and reports
+  features: '- Finds actionable themes in raw data & turns it into a recommendations
+    engine (ie. Thematic analysis)
+
+    - Sentiment analysis
+
+    - Analytical tools that compare themes
+
+    - Themes Editor to suit unique needs
+
+    - Translation of feedback into English prior to the analysis'
+  link: https://getthematic.com/
+- name: MonkeyLearn
+  description: Train custom machine learning models to get topic, sentiment, intent,
+    keywords and more.
+  why: ''
+  ideal: ''
+  limitations: ''
+  nz_use: ''
+  reo: N/A
+  cloud_local: Cloud
+  cost: 'Free - 300 Querries/mth; Low API Speed; 1 Small Custom Model
+
+    Team (Free) - 10000 Querries/mth; Medium API Speed; 3 Small Custom Models
+
+    Business (Schedule a Demo) - On Demand pricing.'
+  theming: 'No'
+  sentiment: 'Yes'
+  input: 'CSV/Excel Files OR via direct integrations, Zapier or API.
+
+    Text format such as: Emails; Support Tickets; Reviews; NPS Feedback; Surveys;
+    Social Media.'
+  output: Zapier connector, APIs, SDKs
+  features: '- Build text classifiers for detecting topic, sentiment, intent, urgency
+    and more
+
+    - Build text extractors to identify specific data within text, including keywords,
+    entities, features, and more.'
+  link: https://monkeylearn.com/
+- name: QDA Miner
+  description: Free and easy-to-use version computer assisted qualitative analysis
+    software. It offers basic CAQDAS features.
+  why: It can be used for the analysis of textual data such as interview and news
+    transcripts, open-ended responses, etc. as well as for the analysis of still images.
+  ideal: ''
+  limitations: '- Lack of training resources
+
+    - May not be as quick in
+
+    product development as
+
+    other QDA products'
+  nz_use: ''
+  reo: N/A
+  cloud_local: Local
+  cost: Free (for Lite version)
+  theming: 'Yes'
+  sentiment: 'No'
+  input: doc, docx, pdf, rtf, txt, html, csv, xls, xlsx, mdb, xml, sav, dbf, asci
+  output: Export codebooks, reports,and visualizations using CSV or XML options. Export
+    graphs to BMP, PNG, JPEG, WMF formats.
+  features: '- Supports wide variety of a/v and text formats
+
+    - Supports mixed methods data analysis
+
+    - Has online automated training tutorials
+
+    - Importation of documents from plain text, RTF, HTML, PDF as well as data stored
+    in Excel, MS Access, CSV, tab delimited text files.
+
+    - Importation from other qualitative coding software such as Atlas.ti.
+
+    - Intuitive coding using codes organised in a tree structure.
+
+    - Ability to add comments (or memos) to coded segments, cases or the whole project.
+
+    - Fast Boolean text search tool for retreiving and coding text segments.
+
+    - NVivo to QDA Miner Conversion Tool'
+  link: https://provalisresearch.com/products/qualitative-data-analysis-software/freeware/
+- name: Taguette
+  description: 'Free and open source tool for tagging '
+  why: Free, allows collaboration on projects
+  ideal: Small to medium datasets
+  limitations: No visualization. Can only import one file at a time. Pretty basic
+  nz_use: ''
+  reo: N/A
+  cloud_local: Hosted version, or you can self-host
+  cost: Free - open source
+  theming: 'Yes'
+  sentiment: 'No'
+  input: "azw, cbz, cbr, cbc, chm, djvu, doc, docx, epub, fb2, fbz, html, htmlz, lit,\
+    \ lrf, md, mobi, odt, pdf, prc, pdb, pml, rb, rtf, snb, tcr, txt, txtz\t"
+  output: 'Can export codebooks as CSV, DOCX and export reports as DOCX, PDF, HTML        '
+  features: '- Can install locally on desktop/laptop, on a server, or can use app.taguette.org
+    for free
+
+    - Free, open source software, easy to navigate
+
+    - Wide variety of import/export options'
+  link: https://taguette.org
+- name: BangTheTable
+  description: ''
+  why: ''
+  ideal: ''
+  limitations: ''
+  nz_use: Justice
+  reo: ''
+  cloud_local: ''
+  cost: ''
+  theming: ''
+  sentiment: ''
+  input: ''
+  output: ''
+  features: ''
+  link: https://www.bangthetable.com/
