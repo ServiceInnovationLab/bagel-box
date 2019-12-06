@@ -68,7 +68,8 @@ that has extracted topics from a subset of submissions on the Zero Carbon Bill.
 <div class="aside">
   <iframe class="lda"
       title="LDA visualisation"
-      src="https://serviceinnovationlab.github.io/bagel-jam/lda">
+      src="https://serviceinnovationlab.github.io/bagel-jam/lda"
+      scrolling="no">
   </iframe>
 </div>
 
