@@ -13,20 +13,27 @@ analysis any time soon.
 
 ## Why you should use it
 
-Policy consultation undertaken with modern technology can reach thousands and result in a high volume of submissions. While this is fantastic for getting a broad range of feedback, it can be difficult to process this amount of data.
+Policy consultation undertaken with modern technology can reach thousands and
+result in a high volume of submissions. While this is fantastic for getting
+a broad range of feedback, it can be difficult to process this amount of data.
 
-Some policy teams are reaching out to machine learning to solve this, but it’s easy to get bamboozled; the jargon is complex and some vendors are happy for you to believe that it’s magic and will solve all of your problems. It is not magic, and it may well cause you new problems!
+Some policy teams are reaching out to machine learning to solve this, but it’s
+easy to get bamboozled; the jargon is complex and some vendors are happy for
+you to believe that it’s magic and will solve all of your problems. It is not
+magic, and it may well cause you new problems!
 
 Some examples of where machine learning could be useful:
 
 - Highlighting unique sections from a large amount of data.
-- Sorting data in a way that you can’t easily describe, but where you have a lot of examples of data sorted in this way.
+- Sorting data in a way that you can’t easily describe, but where you have a
+  lot of examples of data sorted in this way.
 - Finding similarities between data.
 - Finding patterns in large amounts of data.
 - Finding new ways to solve problems.
 
 This post is a primer on machine learning to help you figure out whether it would
-be useful for you and your team, and how you might use it ethically and effectively.
+be useful for you and your team, and how you might use it ethically and
+effectively.
 
 ## What it involves
 
@@ -73,7 +80,11 @@ In **reinforcement learning**:
 - It picks another approach, learning from the
 positive and negative feedback it’s had in the past.
 
-Reinforcement learning can be used to model how people might react to policy changes in unexpected ways. For example, a team of researchers has proposed a model using reinforcement learning to help understand tax evasion to design more effective tax policies.
+Reinforcement learning can be used to model how people might react to policy
+changes in unexpected ways. For example, a team of researchers has [proposed
+a model](https://arxiv.org/pdf/1801.09466.pdf) using reinforcement
+learning to help understand tax evasion to design
+more effective tax policies.
 
 ## Ideal circumstances for use
 
@@ -98,7 +109,8 @@ Some examples of where machine learning is not useful:
   do it based on rules, not machine learning.
 - Dealing with small amounts of data. If you can’t train it with at least a
   couple of thousand things, you probably won’t get much value out of it.
-  If you’re using a model trained on something else, the accuracy probably won’t be great.
+  If you’re using a model trained on something else, the accuracy probably
+  won’t be great.
 - Finding stories and meaning. At the end of the day, machine learning
   algorithms are computer programs, and people are much better at that.
 
@@ -110,11 +122,10 @@ into a consistent enough format to feed to a machine learning algorithm.
 
 Once you do have the data, training the model itself can take a lot of time and
 computer power. In particular, deep learning algorithms can use enormous
-amounts of electricity, which comes with attendant carbon emissions -
-see [Energy and Policy Considerations for Deep Learning in NLP](https://arxiv.org/pdf/1906.02243.pdf).
+amounts of electricity, which comes with attendant carbon emissions - see
+[Energy and Policy Considerations for Deep Learning in NLP](https://arxiv.org/pdf/1906.02243.pdf).
 
 ### Machine learning is difficult to inspect
-
 
 If a normal computer program makes a mistake, it’s generally possible to find
 why that happened, and change the code to address future problems.
@@ -127,7 +138,9 @@ be reviewable.
 
 ### Machine learning doesn't erase bias
 
-A machine learning model will reflect the patterns in the data it is trained on. If there are historical patterns of over or under reporting, these will be reflected in the model's output.
+A machine learning model will reflect the patterns in the data it is trained on.
+If there are historical patterns of over or under reporting, these will be
+reflected in the model's output.
 
 - **Has it been trained on US English?** It might not be very good at judging
   New Zealand English, let alone Te Reo Māori.
