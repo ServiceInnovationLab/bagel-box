@@ -1,9 +1,11 @@
 ---
-title: Introduction to Machine Learning
+title: Machine Learning
 layout: page
 permalink: /intro/
 in_nav: true
 ---
+
+# Introduction to Machine Learning
 
 <p class="t-intro">
 As a policy analyst, you might be able to use machine learning to help you
