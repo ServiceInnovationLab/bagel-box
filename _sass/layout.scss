@@ -1,0 +1,8 @@
+.page-content {
+  p, h1, h2, h3, h4, ul, ol {
+    @extend .wrapper;
+  }
+  ul, ol {
+    padding-left: 4em;
+  }
+}

@@ -1,5 +1,5 @@
 ---
-title: Analysis Tool Matrix
+title: Analysis Tools
 layout: page
 permalink: /matrix/
 in_nav: true
