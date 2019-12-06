@@ -4,14 +4,23 @@ layout: page
 permalink: /intro/
 in_nav: true
 ---
-
 <p class="t-intro">
 As a policy analyst, you might be able to use machine learning to help you
 process qualitative data, but it's probably not going to replace manual
 analysis any time soon.
 </p>
 
-## Why you should use it
+**On this page:**
+
+1. [Why you should use it](#WhyYouShouldUseIt)
+2. [What it involves](#WhatItInvolves)
+3. [Ideal circumstances for use](#IdealCircumstancesForUse)
+4. [Limitations](#Limitations)
+5. [Machine learning can be time-consuming, data-hungry, and energy-hungry](#MachineLearningTimeConsuming)
+6. [Machine learning is difficult to inspect](#MachineLearningIsDifficultToInspect)
+7. [Machine learning doesn't erase bias](#MachineLearningDoesntEraseBias)
+
+## Why you should use it<a name="WhyYouShouldUseIt"></a>
 
 Policy consultation undertaken with modern technology can reach thousands and
 result in a high volume of submissions. While this is fantastic for getting
@@ -35,7 +44,7 @@ This post is a primer on machine learning to help you figure out whether it woul
 be useful for you and your team, and how you might use it ethically and
 effectively.
 
-## What it involves
+## What it involves<a name="WhatItInvolves"></a>
 
 Machine learning is a blanket term for algorithms that learn from the
 past to predict future data.
@@ -87,7 +96,7 @@ a model](https://arxiv.org/pdf/1801.09466.pdf) using reinforcement
 learning to help understand tax evasion to design
 more effective tax policies.
 
-## Ideal circumstances for use
+## Ideal circumstances for use<a name="IdealCircumstancesForUse"></a>
 
 You should be clear about what you want to achieve with machine learning, and
 make sure that you’re not unnecessarily using it for applications that would
@@ -101,7 +110,7 @@ be much more easily and effectively performed by a person or a simple program.
   familiar with data science.
 - Regularly assess how well it’s doing.
 
-## Limitations
+## Limitations<a name="Limitations></a>
 
 Some examples of where machine learning is not useful:
 
@@ -115,7 +124,7 @@ Some examples of where machine learning is not useful:
 - Finding stories and meaning. At the end of the day, machine learning
   algorithms are computer programs, and people are much better at that.
 
-### Machine learning can be time-consuming, data-hungry, and energy-hungry
+### Machine learning can be time-consuming, data-hungry, and energy-hungry<a name="MachineLearningTimeConsuming></a>
 
 Finding, formatting and managing the data required to train a machine learning
 model is invariably time-consuming. It can take a lot of effort to get data
@@ -126,7 +135,7 @@ computer power. In particular, deep learning algorithms can use enormous
 amounts of electricity, which comes with attendant carbon emissions - see
 [Energy and Policy Considerations for Deep Learning in NLP](https://arxiv.org/pdf/1906.02243.pdf).
 
-### Machine learning is difficult to inspect
+### Machine learning is difficult to inspect<a name="MachineLearningIsDifficultToInspect></a>
 
 If a normal computer program makes a mistake, it’s generally possible to find
 why that happened, and change the code to address future problems.
@@ -137,7 +146,7 @@ Keep this in mind when deciding whether to use machine learning in decisions
 that directly affect peoples’ lives, and particularly in decisions that must
 be reviewable.
 
-### Machine learning doesn't erase bias
+### Machine learning doesn't erase bias<a name="MachineLearningDoesntEraseBias></a>
 
 A machine learning model will reflect the patterns in the data it is trained on.
 If there are historical patterns of over or under reporting, these will be
@@ -159,7 +168,7 @@ reflected in the model's output.
   notice it first.
 - Be transparent about the data it's trained on, and revisit it if necessary.
 
-## Resources
+## Resources<a name="Resources></a>
 
 - [How Might an AI Explain Itself? - Jonathan Manning, dia.govt.nz](https://www.digital.govt.nz/blog/how-might-an-ai-explain-itself)
 - [Draft Algorithm Charter - data.govt.nz](https://data.govt.nz/use-data/analyse-data/government-algorithm-transparency-and-accountability/draft-algorithm-charter/)
