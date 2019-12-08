@@ -10,7 +10,9 @@ layout: home
 
 This website is a result of a Service Innovation Lab project with involvement from policy practitioners from across government exploring how to improve submission analysis processes, especially when dealing with large amounts of submissions.
 
-<img src="assets/img/analysing-data-image.png" alt="Data analysis phase" width="50%">
+<div class="half-width">
+  <img src="assets/img/analysing-data-image.png" alt="Data analysis phase">
+</div>
 
 ## Pages
 
