@@ -15,6 +15,7 @@ in_nav: true
     <li><a href="#What-you-will-get-out-of-it">What you will get out of it</a></li>
     <li><a href="#Ideal-circumstances-for-use">Ideal circumstances for use</a></li>
     <li><a href="#Limitations">Limitations</a></li>
+    <li><a href="#Case-Study">Case Study</a></li>
   </ol>
 
   <a name="About-keeping-your-participants-informed"></a>
@@ -33,8 +34,6 @@ in_nav: true
 
   <p>Once you have designed how the feedback will be presented, this can then be released to the community, and where possible give them the opportunity to provide further feedback on the topic which can be incorporated into the end product/service.</p>
 
-  <p><strong>Example: </strong><a href="https://www.the-hive.nz/">The Hive</a></p>
-
   <img src="../assets/img/feedback-loop.png" alt="Best practice example if you have the money and time">
 
   <a name="What-you-will-get-out-of-it"></a>
@@ -47,10 +46,20 @@ in_nav: true
 
   <p>You should keep engaged with your community and ask them how they would like to be informed in any consultation that you are running. They will have ideas on the best way to present your findings back to them. The approach might change depending on who you are engaging with therefore the best practice is to co-design the approach with them.</p>
 
-  <p><strong>Example: </strong><a href="https://www.the-hive.nz/">The Hive</a></p>
-  
   <a name="Limitations"></a>
   <h3>Limitations</h3>
 
   <p>The participants you engage with when designing your feedback may not represent everyone in their community, so acknowledging and recognising this is important. Also due to government process and time pressures placed on consultations, this process is not always possible. If this is the case try and think about what is possible, what is the purpose of your feedback and who you want to access the feedback.</p>
+
+  <a name="Case-Study"></a>
+  <h3>Case Study</h3>
+
+  <p>We have tried to explore and follow this process with The Hive. The Hive is a Ministry of Youth Development (MYD) Youth Voice Project that uses an innovative approach to increasing young people’s participation in the government policy development process. MYD worked in partnership with design agency Curative and 15 rangatahi on this project.</p>
+
+  <p>The 15 rangatahi (known as the Hivers) were invited to participate in a co-design hui to identify and create solutions for "How might we enable a two-way communication platform between young people and policy makers?" They were presented with the issue, and went on to design The Hive which included youth centric website, with accessible and relatable content, and a social media drive.</p>
+  
+  <p>Following a successful consultation, using the Biodiversity, The Hivers were consulted on how the results should be released. The methods used, social media, video, info graphics, reflects the consultation methods and the community we wanted to engage with.</p>
+  
+  <p>Through the process The Hivers designed, created and were consulted throughout. Resulting in the entire process been relevant and accessible for the people we are wanted to engage.
+  </p>
 </div>
