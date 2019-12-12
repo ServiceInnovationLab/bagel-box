@@ -60,6 +60,6 @@ in_nav: true
   
   <p>Following a successful consultation, using the Biodiversity, The Hivers were consulted on how the results should be released. The methods used, social media, video, info graphics, reflects the consultation methods and the community we wanted to engage with.</p>
   
-  <p>Through the process The Hivers designed, created and were consulted throughout. Resulting in the entire process been relevant and accessible for the people we are wanted to engage.
+  <p>Through the process The Hivers designed, created and were consulted throughout. As a result, the entire process was relevant and accessible for the people we wanted to engage.
   </p>
 </div>
