@@ -58,7 +58,7 @@ in_nav: true
 
   <p>The 15 rangatahi (known as the Hivers) were invited to participate in a co-design hui to identify and create solutions for "How might we enable a two-way communication platform between young people and policy makers?" They were presented with the issue, and went on to design The Hive - a youth centric website with accessible and relatable content - and a social media drive.</p>
   
-  <p>Following a successful consultation, using the Biodiversity, The Hivers were consulted on how the results should be released. The methods used, social media, video, info graphics, reflects the consultation methods and the community we wanted to engage with.</p>
+  <p>Following a successful consultation, on the Biodiversity Strategy, The Hivers were consulted on how the results should be released. The methods used - social media, video, and infographics - reflects the consultation methods and the community we wanted to engage with.</p>
   
   <p>Through the process The Hivers designed, created and were consulted throughout. As a result, the entire process was relevant and accessible for the people we wanted to engage.
   </p>
