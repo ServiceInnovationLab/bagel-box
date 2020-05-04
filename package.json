@@ -2,8 +2,9 @@
   "name": "BagelBox",
   "version": "1.0.0",
   "dependencies": {
-    "markdownlint": "^0.15.0",
-    "markdownlint-cli": "^0.19.0",
+    "markdownlint": "^0.20.2",
+    "markdownlint-cli": "^0.22.0",
+    "minimist": "^1.2.5",
     "pa11y-ci": "^2.3.0"
   },
   "devDependencies": {},
